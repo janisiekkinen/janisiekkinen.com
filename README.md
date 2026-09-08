@@ -39,7 +39,7 @@ Nykyinen stack (ei Astro):
 | OpenNext Cloudflare | ^1.20.2 |
 | Wrangler | ^4.120.1 |
 | Node | `>=22` |
-| Hosting | Cloudflare Worker (`wrangler.jsonc`, nimi `janisiekkinen`) |
+| Hosting | Cloudflare Worker (`wrangler.jsonc`, nimi `janisiekkinen-com`) |
 | Vercel | Ei konffia, ei käytössä |
 
 `package.json`-skriptit:
@@ -77,7 +77,14 @@ Tuotantodeploy:
 npm run deploy
 ```
 
-Worker-konfig: `wrangler.jsonc` (`main`: `.open-next/worker.js`, `assets`: `.open-next/assets`, `nodejs_compat`, `keep_vars`).
+Cloudflare Workers Builds (git-push):
+
+- Build command: `npm run build`
+- Deploy command: `npx wrangler deploy`
+
+`npx wrangler deploy` kutsuu OpenNextin `deploy`-komentoa, joka vaatii valmiin `.open-next/`-buildin. Ilman build-vaihetta deploy kaatuu heti: `Could not find compiled Open Next config`.
+
+Worker-konfig: `wrangler.jsonc` (`main`: `.open-next/worker.js`, `assets`: `.open-next/assets`, `nodejs_compat`, `keep_vars`). Worker-nimi on `janisiekkinen-com` (sama kuin Cloudflare-projekti).
 
 ## Miten sivusto on rakennettu
 
@@ -216,8 +223,7 @@ Salaisuuksia ei ole koodissa. `.env` ja `.dev.vars` ovat gitignored.
 
 | Tiedosto | Tarkoitus |
 |----------|-----------|
-| `wrangler.jsonc` | Nykyinen Worker-deploy (OpenNext) |
-| `wrangler.toml` | Vanha Pages-konfig: projekti `janisiekkinen-com`, output `./dist`. Ei ole nykyinen build. |
+| `wrangler.jsonc` | Worker-deploy (OpenNext). Nimi `janisiekkinen-com`. |
 | `AGENTS.md` | Next.js `next dev` kirjoittaa tämän uudelleen. Ei projektidokumentti. |
 | `CLAUDE.md` | Vain `@AGENTS.md`. |
 
@@ -261,7 +267,6 @@ Edelleen totta `site.ts`:ssä ja vanhassa README:ssa:
 
 ## Tiedetyt jäänteet (ei siivottu 8.9.2026)
 
-- `wrangler.toml` Pages-projektilla `janisiekkinen-com` ja `pages_build_output_dir = "./dist"`
 - Juuren `dist/` (gitignore, vanha Pages-output)
 - `zod` riippuvuus ilman käyttöä `src/`:ssa
 - `analyticsToken` ilman käyttöä; CSP silti Insights-valmiudessa

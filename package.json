@@ -19,7 +19,7 @@
     "preview": "opennextjs-cloudflare preview",
     "start": "next start --hostname 127.0.0.1",
     "lint": "eslint",
-    "deploy": "opennextjs-cloudflare deploy -- --keep-vars --minify"
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy -- --keep-vars --minify"
   },
   "dependencies": {
     "@opennextjs/cloudflare": "^1.20.2",

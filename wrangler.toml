@@ -1,9 +1,0 @@
-name = "janisiekkinen-com"
-compatibility_date = "2026-09-08"
-pages_build_output_dir = "./dist"
-
-# Secrets (dashboard or `wrangler pages secret put`):
-# SMTP2GO_API_KEY
-# MAIL_FROM
-# MAIL_TO
-# TURNSTILE_SECRET_KEY

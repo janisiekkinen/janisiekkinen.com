@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "janisiekkinen",
+  "name": "janisiekkinen-com",
   "main": ".open-next/worker.js",
   "compatibility_date": "2026-07-08",
   "compatibility_flags": ["nodejs_compat"],
@@ -13,7 +13,7 @@
   "services": [
     {
       "binding": "WORKER_SELF_REFERENCE",
-      "service": "janisiekkinen"
+      "service": "janisiekkinen-com"
     }
   ]
 }
