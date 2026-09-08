@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.astro/
+.next/
+.open-next/
+.env
+.env.*
+!.env.example
+.dev.vars
+.wrangler/
+.DS_Store
+.codegraph/
+data/
+tsconfig.tsbuildinfo
+/*.JPG
+/*.jpg
+/*.HEIC
