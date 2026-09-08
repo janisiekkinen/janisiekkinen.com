@@ -9,7 +9,14 @@ export function JaniView({ locale }: { locale: Locale }) {
   const meta = pageMeta(locale, "jani");
   return (
     <>
-      <PageHead kicker={t.jani.kicker} title={meta.h1} image={portrait} alt={t.alts.portrait} imagePosition="center 38%" />
+      <PageHead
+        kicker={t.jani.kicker}
+        title={meta.h1}
+        image={portrait}
+        alt={t.alts.portrait}
+        imagePosition="center 18%"
+        layout="portrait"
+      />
       <div className="grid gap-12 border-t border-ink/10 px-5 py-14 md:gap-16 md:px-10 md:py-20 lg:grid-cols-12 lg:gap-x-8 lg:px-16 lg:py-28">
         <article className="lg:col-span-7">
           <p className="max-w-3xl text-balance font-display text-[clamp(2rem,3.4vw,3.5rem)] font-semibold leading-[1.02] tracking-[-0.025em] text-ink">

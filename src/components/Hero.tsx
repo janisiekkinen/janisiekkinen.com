@@ -14,12 +14,12 @@ export function Hero({ locale, image }: { locale: Locale; image: StaticImageData
           fill
           priority
           sizes="100vw"
-          className="hero-photo object-cover object-[22%_40%] md:object-[18%_42%]"
+          className="hero-photo object-cover object-[22%_48%] md:object-[16%_58%]"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-slate via-slate/25 to-rail/35 md:hidden" aria-hidden="true" />
         <div className="hero-veil absolute inset-0 hidden md:block" aria-hidden="true" />
       </div>
-      <div className="relative z-10 px-5 pb-8 pt-5 md:absolute md:inset-0 md:flex md:flex-col md:items-end md:justify-end md:px-10 md:pb-[18vh] md:pt-28 md:text-right lg:px-16">
+      <div className="relative z-10 px-5 pb-8 pt-5 md:absolute md:inset-0 md:flex md:flex-col md:items-end md:justify-start md:px-10 md:pb-10 md:pt-28 md:text-right lg:px-16 lg:pt-32">
         <div className="hero-copy min-w-0 w-full md:w-fit md:max-w-full md:bg-rail/85 md:px-8 md:py-7 md:shadow-[0_0_80px_56px_rgb(12_14_13_/_0.82)]">
           <p className="text-[0.7rem] font-medium uppercase tracking-[0.28em] text-brass">{t.hero.kicker}</p>
           <h1 className="mt-3 font-display font-bold uppercase leading-[0.82] tracking-tight md:mt-4 md:leading-[0.78]">

@@ -2,7 +2,7 @@ import { OfferingView } from "../../components/OfferingView";
 import { SitePage } from "../../components/SitePage";
 import { copy } from "../../i18n";
 import { buildMetadata } from "../../lib/metadata";
-import hands from "../../assets/images/hands-cue.jpg";
+import action from "../../assets/images/break-shot.jpg";
 
 const locale = "fi" as const;
 const t = copy(locale);
@@ -15,12 +15,12 @@ export default function Page() {
       <OfferingView
         locale={locale}
         page="coaching"
-        image={hands}
-        alt={t.alts.hands}
+        image={action}
+        alt={t.alts.break}
         intro={t.coaching.intro}
         items={t.coaching.items}
         showLocation
-        imagePosition="center 22%"
+        imagePosition="32% 42%"
       />
     </SitePage>
   );
