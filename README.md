@@ -82,9 +82,11 @@ Cloudflare Workers Builds (git-push):
 - Build command: `npm run build`
 - Deploy command: `npx wrangler deploy`
 
-`npx wrangler deploy` kutsuu OpenNextin `deploy`-komentoa, joka vaatii valmiin `.open-next/`-buildin. Ilman build-vaihetta deploy kaatuu heti: `Could not find compiled Open Next config`.
+`npx wrangler deploy` kutsuu OpenNextin `deploy`-komentoa. Cloudflare Buildsissa Build command voi olla tyhjä: paikallinen `opennextjs-cloudflare`-wrapper ajaa `build` ensin, jos `.open-next` puuttuu.
 
-Worker-konfig: `wrangler.jsonc` (`main`: `.open-next/worker.js`, `assets`: `.open-next/assets`, `nodejs_compat`, `keep_vars`). Worker-nimi on `janisiekkinen-com` (sama kuin Cloudflare-projekti).
+Worker-konfig: `wrangler.jsonc` (`main`: `.open-next/worker.js`, `assets`: `.open-next/assets`, `nodejs_compat`, `keep_vars: true`). Worker-nimi on `janisiekkinen-com` (sama kuin Cloudflare-projekti).
+
+Tuotannon ympäristömuuttujat ja salaisuudet asetetaan vain Cloudflare-dashboardissa. Niitä ei ole wrangler-konfissa. `keep_vars: true` pitää dashboardin arvot ennallaan jokaisessa deployssa. Älä lisää `vars`-lohkoa wrangleriin.
 
 ## Miten sivusto on rakennettu
 

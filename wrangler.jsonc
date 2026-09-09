@@ -5,6 +5,8 @@
   "compatibility_date": "2026-07-08",
   "compatibility_flags": ["nodejs_compat"],
   "minify": true,
+  // Runtime vars and secrets are set only in the Cloudflare dashboard.
+  // Do not add a "vars" object here — deploy would overwrite or drop dashboard values.
   "keep_vars": true,
   "assets": {
     "directory": ".open-next/assets",

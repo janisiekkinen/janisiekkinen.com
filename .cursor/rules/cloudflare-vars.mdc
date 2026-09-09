@@ -1,0 +1,14 @@
+---
+description: Never overwrite Cloudflare Worker runtime variables or secrets from the repo.
+alwaysApply: true
+---
+
+# Cloudflare runtime variables
+
+Worker environment variables and secrets (`SMTP2GO_API_KEY`, `MAIL_FROM`, `MAIL_TO`, `TURNSTILE_SECRET_KEY`, and any others) are set **only** in the Cloudflare dashboard.
+
+- Keep `"keep_vars": true` in `wrangler.jsonc`.
+- Never add a `vars` object to `wrangler.jsonc` or `wrangler.toml`.
+- Never pass `--var` / `--vars` on deploy except OpenNext’s own skew-protection flag.
+- Never deploy with a command that omits keep-vars (dashboard `npx wrangler deploy` already reads `keep_vars` from `wrangler.jsonc`).
+- Local secrets stay in `.dev.vars` (gitignored). Do not copy them into git or Wrangler config.

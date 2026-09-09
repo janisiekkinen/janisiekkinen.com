@@ -21,6 +21,9 @@
     "lint": "eslint",
     "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy -- --keep-vars --minify"
   },
+  "bin": {
+    "opennextjs-cloudflare": "./tools/opennextjs-cloudflare/cli.mjs"
+  },
   "dependencies": {
     "@opennextjs/cloudflare": "^1.20.2",
     "clsx": "^2.1.1",
@@ -28,7 +31,8 @@
     "react": "19.2.8",
     "react-dom": "19.2.8",
     "tailwind-merge": "^3.6.0",
-    "zod": "^4.4.3"
+    "zod": "^4.4.3",
+    "opennextjs-cloudflare": "file:./tools/opennextjs-cloudflare"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
