@@ -1,4 +1,5 @@
-import { site } from "../../../config/site";
+import { site, type ServiceId } from "../../../config/site";
+import { ownerMail, replyMail } from "../../../lib/contact-mail";
 
 const SERVICES = new Set([
   "private",
@@ -30,23 +31,6 @@ function json(body: object, status = 200): Response {
       "content-type": "application/json; charset=utf-8",
       "cache-control": "no-store",
     },
-  });
-}
-
-function escapeText(value: string): string {
-  return value.replace(/[&<>"']/g, (ch) => {
-    switch (ch) {
-      case "&":
-        return "&amp;";
-      case "<":
-        return "&lt;";
-      case ">":
-        return "&gt;";
-      case '"':
-        return "&quot;";
-      default:
-        return "&#39;";
-    }
   });
 }
 
@@ -150,51 +134,39 @@ export async function POST(request: Request) {
     if (!outcome.success) return json({ ok: false }, 400);
   }
 
-  const apiKey = process.env.SMTP2GO_API_KEY;
+  const apiKey = process.env.RESEND_API_KEY;
   const mailFrom = process.env.MAIL_FROM;
   const mailTo = process.env.MAIL_TO;
   if (!apiKey || !mailFrom || !mailTo) {
     return json({ ok: false }, 503);
   }
 
-  const fields = [
-    ["Name", name],
-    ["Email", email],
-    ["Phone", phone || "-"],
-    ["Topic", service],
-    ["Locale", locale],
-    ["Message", message],
-  ];
-  const textBody = fields.map(([k, v]) => `${k}: ${v}`).join("\n");
-  const htmlBody = `<pre>${escapeText(textBody)}</pre>`;
-
+  const topic = service as ServiceId;
+  const ownerBody = ownerMail({
+    name,
+    email,
+    phone,
+    service: topic,
+    locale,
+    message,
+  });
   const owner = await sendMail(apiKey, {
-    sender: mailFrom,
+    from: mailFrom,
     to: [mailTo],
-    subject: `[janisiekkinen.com] ${service} · ${name}`,
-    text_body: textBody,
-    html_body: htmlBody,
-    custom_headers: [{ header: "Reply-To", value: email }],
+    subject: ownerBody.subject,
+    text: ownerBody.text,
+    html: ownerBody.html,
+    reply_to: email,
   });
   if (!owner) return json({ ok: false }, 502);
 
-  const reply =
-    locale === "en"
-      ? {
-          subject: "Message received · Jani Siekkinen",
-          text: "I got your message and will reply. No need to resend personal details.",
-        }
-      : {
-          subject: "Viesti perillä · Jani Siekkinen",
-          text: "Viesti tuli perille. Palaan asiaan. Älä lähetä lisää henkilötietoja turhaan.",
-        };
-
+  const reply = replyMail({ name, locale });
   await sendMail(apiKey, {
-    sender: mailFrom,
+    from: mailFrom,
     to: [email],
     subject: reply.subject,
-    text_body: reply.text,
-    html_body: `<p>${escapeText(reply.text)}</p>`,
+    text: reply.text,
+    html: reply.html,
   });
 
   return json({ ok: true });
@@ -203,19 +175,19 @@ export async function POST(request: Request) {
 async function sendMail(
   apiKey: string,
   payload: {
-    sender: string;
+    from: string;
     to: string[];
     subject: string;
-    text_body: string;
-    html_body: string;
-    custom_headers?: { header: string; value: string }[];
+    text: string;
+    html: string;
+    reply_to?: string;
   },
 ): Promise<boolean> {
-  const res = await fetch("https://eu-api.smtp2go.com/v3/email/send", {
+  const res = await fetch("https://api.resend.com/emails", {
     method: "POST",
     headers: {
       "content-type": "application/json",
-      "X-Smtp2go-Api-Key": apiKey,
+      authorization: `Bearer ${apiKey}`,
     },
     body: JSON.stringify(payload),
   });

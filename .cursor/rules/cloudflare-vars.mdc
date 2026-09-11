@@ -5,7 +5,7 @@ alwaysApply: true
 
 # Cloudflare runtime variables
 
-Worker environment variables and secrets (`SMTP2GO_API_KEY`, `MAIL_FROM`, `MAIL_TO`, `TURNSTILE_SECRET_KEY`, and any others) are set **only** in the Cloudflare dashboard.
+Worker environment variables and secrets (`RESEND_API_KEY`, `MAIL_FROM`, `MAIL_TO`, `TURNSTILE_SECRET_KEY`, and any others) are set **only** in the Cloudflare dashboard.
 
 - Keep `"keep_vars": true` in `wrangler.jsonc`.
 - Never add a `vars` object to `wrangler.jsonc` or `wrangler.toml`.

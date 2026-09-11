@@ -50,7 +50,7 @@ Nykyinen stack (ei Astro):
 - `preview`: `opennextjs-cloudflare preview`
 - `start`: `next start --hostname 127.0.0.1`
 - `lint`: `eslint`
-- `deploy`: `opennextjs-cloudflare deploy -- --keep-vars --minify`
+- `deploy`: `opennextjs-cloudflare build && opennextjs-cloudflare deploy -- --keep-vars --minify`
 
 Tyylejä: `src/styles/global.css`. Fontit: Barlow Condensed ja Schibsted Grotesk (`public/fonts/`, preload root layoutissa).
 
@@ -69,7 +69,7 @@ Lomakkeen salaisuudet paikallisesti:
 cp .dev.vars.example .dev.vars
 ```
 
-`.dev.vars` on gitignored. Ilman `SMTP2GO_API_KEY`, `MAIL_FROM` ja `MAIL_TO` reitti `POST /api/contact` palauttaa 503.
+`.dev.vars` on gitignored. Ilman `RESEND_API_KEY`, `MAIL_FROM` ja `MAIL_TO` reitti `POST /api/contact` palauttaa 503.
 
 Tuotantodeploy:
 
@@ -105,7 +105,7 @@ ContactForm (client)
   -> POST /api/contact
   -> origin, rate limit, honeypot, täyttöaika
   -> Turnstile jos avaimet asetettu
-  -> SMTP2GO EU (omistajalle + automaattivastaus lähettäjälle)
+  -> Resend (omistajalle + automaattivastaus lähettäjälle)
 ```
 
 Keskeiset tiedostot:
@@ -124,7 +124,7 @@ Keskeiset tiedostot:
 | `src/components/ContactView.tsx` + `ContactForm.tsx` | Yhteydenotto |
 | `src/assets/images/` | hero-wide, break-shot, hands-cue, hero-table, show-shot, table-lamp |
 
-Sisältö on hardcoded. Ulkoinen runtime-API on vain yhteydenotto (SMTP2GO + valinnainen Turnstile).
+Sisältö on hardcoded. Ulkoinen runtime-API on vain yhteydenotto (Resend + valinnainen Turnstile).
 
 ## Reitit
 
@@ -181,18 +181,18 @@ Palvelin (`src/app/api/contact/route.ts`):
 5. Täyttöaika kentästä `t`: vähintään 4 s, enintään 2 h.
 6. Validointi: nimi min 2, sähköposti, viesti min 8, `service` joukosta `serviceIds`.
 7. Turnstile: jos `site.turnstileSiteKey` tai `TURNSTILE_SECRET_KEY` on asetettu, molemmat tarvitaan ja token varmennetaan Cloudflarella. Paikallisesti skipataan vain kun molemmat ovat tyhjiä.
-8. Sähköposti: SMTP2GO EU `https://eu-api.smtp2go.com/v3/email/send`. Omistajalle viesti + Reply-To. Lähettäjälle lyhyt kuittaus FI/EN.
+8. Sähköposti: Resend `https://api.resend.com/emails`. Omistajalle viesti + Reply-To. Lähettäjälle lyhyt kuittaus FI/EN.
 
 Salaisuudet (`.dev.vars.example` / Cloudflare Worker vars):
 
-- `SMTP2GO_API_KEY`
+- `RESEND_API_KEY`
 - `MAIL_FROM` (esimerkki: `Jani Siekkinen <noreply@janisiekkinen.com>`)
 - `MAIL_TO`
 - `TURNSTILE_SECRET_KEY`
 
 Julkinen Turnstile-site key kuuluu `src/config/site.ts` (`turnstileSiteKey`). Nyt tyhjä.
 
-Lähettäjän domain on verifioitava SMTP2GO:ssa (SPF/DKIM) ennen tuotantoa.
+Lähettäjän domain on verifioitava Resendissä (SPF/DKIM) ennen tuotantoa. Gmail kelpaa Resend-tilin luontiin, mutta `MAIL_FROM` pitää olla verifioidulta domainilta, ei Gmailista.
 
 ## SEO, LLM, PWA, analytiikka
 
@@ -254,6 +254,7 @@ Kronologia agenttisessioista. Ei commit-hashia.
 11. GameOn-sivu: lisätietoa https://www.gameon.style/ perusteella. Ei verkkokauppaa; koot ja varasto vaihtelevat, tilaus lomakkeella.
 12. `llms.txt` ja SEO-tiedostojen tarkistus.
 13. Tämä muistio.
+14. Yhteydenottolomakkeen lähetys SMTP2GO:sta Resendiin (`RESEND_API_KEY`).
 
 ## Avoimet TODOt
 
