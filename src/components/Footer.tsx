@@ -5,7 +5,7 @@ import { pathFor } from "../i18n/routes";
 
 export function Footer({ locale }: { locale: Locale }) {
   const t = copy(locale);
-  const ig = `https://instagram.com/${site.instagramHandle}`;
+  const ig = site.instagramUrl;
   const year = new Date().getFullYear();
   const links: { id: PageId; label: string }[] = [
     { id: "jani", label: t.nav.jani },

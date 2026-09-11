@@ -35,7 +35,7 @@ export function ContactView({ locale }: { locale: Locale }) {
             </li>
           ) : null}
           <li>
-            <a className="cue" href={`https://instagram.com/${site.instagramHandle}`} rel="me noopener noreferrer">
+            <a className="cue" href={site.instagramUrl} rel="me noopener noreferrer">
               @{site.instagramHandle}
             </a>
           </li>

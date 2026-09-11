@@ -13,6 +13,7 @@ export function buildMetadata(opts: {
   canonicalPath?: string;
   alternateFi?: string;
   alternateEn?: string;
+  ogType?: "website" | "article";
 }): Metadata {
   const meta = pageMeta(opts.locale, opts.page);
   const title = opts.title ?? meta.title;
@@ -29,6 +30,10 @@ export function buildMetadata(opts: {
   const languages: Record<string, string> = {};
   for (const link of links) languages[link.hreflang] = link.href;
   const ogImage = `${site.domain}/og.jpg`;
+  const ogAlt =
+    opts.locale === "fi"
+      ? "Jani Siekkinen tähtää lyöntiä kiertueella"
+      : "Jani Siekkinen lining up a shot on tour";
 
   return {
     title,
@@ -40,14 +45,14 @@ export function buildMetadata(opts: {
       languages,
     },
     openGraph: {
-      type: "website",
+      type: opts.ogType ?? "website",
       siteName: site.name,
       title,
       description,
       url: canonical,
       locale: ogLocale(opts.locale),
       alternateLocale: [opts.locale === "fi" ? "en_GB" : "fi_FI"],
-      images: [{ url: ogImage, width: 1200, height: 630, alt: title }],
+      images: [{ url: ogImage, width: 1200, height: 630, alt: ogAlt }],
     },
     twitter: {
       card: "summary_large_image",

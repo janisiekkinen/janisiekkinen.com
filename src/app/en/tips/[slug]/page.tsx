@@ -19,6 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     canonicalPath: `/en/tips/${post.slug}/`,
     title: `${post.title} · Jani Siekkinen`,
     description: post.description,
+    ogType: "article",
     alternateFi: `/vinkit/${post.counterpart}/`,
     alternateEn: `/en/tips/${post.slug}/`,
   });
@@ -39,6 +40,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
           title: post.title,
           description: post.description,
           path: `/en/tips/${post.slug}/`,
+          datePublished: post.published,
         }),
       ]}
     >

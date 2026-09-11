@@ -1,6 +1,11 @@
 import { notFound } from "next/navigation";
 import { ownerMail, replyMail } from "../../../lib/contact-mail";
 
+export const metadata = {
+  robots: { index: false, follow: false },
+  title: "Sähköpostit",
+};
+
 function bodyHtml(full: string): string {
   const match = full.match(/<body[^>]*>([\s\S]*)<\/body>/i);
   return match?.[1] ?? full;

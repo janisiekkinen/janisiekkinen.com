@@ -1,3 +1,4 @@
+import { Faq } from "../../components/Faq";
 import { OfferingView } from "../../components/OfferingView";
 import { SitePage } from "../../components/SitePage";
 import { copy } from "../../i18n";
@@ -21,7 +22,15 @@ export default function Page() {
         items={t.coaching.items}
         showLocation
         imagePosition="32% 42%"
-      />
+      >
+        <Faq
+          locale={locale}
+          items={t.coaching.faq}
+          label={t.coaching.faqLabel}
+          title={t.coaching.faqTitle}
+          intro={t.coaching.faqIntro}
+        />
+      </OfferingView>
     </SitePage>
   );
 }

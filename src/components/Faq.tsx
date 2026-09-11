@@ -2,6 +2,11 @@ import type { Locale } from "../config/site";
 import { copy } from "../i18n";
 import { pathFor } from "../i18n/routes";
 
+export type FaqItem = {
+  q: string;
+  a: string | readonly string[];
+};
+
 export function Faq({
   locale,
   items,
@@ -10,7 +15,7 @@ export function Faq({
   intro,
 }: {
   locale: Locale;
-  items: readonly { q: string; a: string }[];
+  items: readonly FaqItem[];
   label: string;
   title: string;
   intro: string;
@@ -32,23 +37,30 @@ export function Faq({
           </p>
         </header>
         <div className="border-y border-ink/15 lg:col-span-7 lg:col-start-6">
-          {items.map((item, i) => (
-            <details key={item.q} className="group border-b border-ink/10 last:border-b-0" open={i === 0}>
-              <summary className="flex min-h-20 cursor-pointer list-none items-center justify-between gap-5 py-5 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brass [&::-webkit-details-marker]:hidden">
-                <span className="flex min-w-0 items-baseline gap-4 md:gap-6">
-                  <span className="shrink-0 font-display text-sm tabular-nums text-brass">{String(i + 1).padStart(2, "0")}</span>
-                  <span className="font-display text-[1.55rem] font-semibold uppercase leading-[1.1] tracking-tight text-ink transition-colors group-hover:text-brass md:text-[2rem]">
-                    {item.q}
+          {items.map((item, i) => {
+            const paras = typeof item.a === "string" ? [item.a] : item.a;
+            return (
+              <details key={item.q} className="group border-b border-ink/10 last:border-b-0" open={i === 0 || undefined}>
+                <summary className="flex min-h-20 cursor-pointer list-none items-center justify-between gap-5 py-5 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brass [&::-webkit-details-marker]:hidden">
+                  <span className="flex min-w-0 items-baseline gap-4 md:gap-6">
+                    <span className="shrink-0 font-display text-sm tabular-nums text-brass">{String(i + 1).padStart(2, "0")}</span>
+                    <span className="font-display text-[1.55rem] font-semibold uppercase leading-[1.1] tracking-tight text-ink transition-colors group-hover:text-brass md:text-[2rem]">
+                      {item.q}
+                    </span>
                   </span>
-                </span>
-                <span className="relative size-5 shrink-0 text-brass" aria-hidden="true">
-                  <span className="absolute left-0 top-1/2 h-px w-full bg-current" />
-                  <span className="absolute left-1/2 top-0 h-full w-px bg-current transition-transform duration-200 group-open:rotate-90" />
-                </span>
-              </summary>
-              <p className="pb-7 pl-10 pr-10 text-[0.95rem] leading-relaxed text-muted md:pb-8 md:pl-16 md:pr-16 md:text-base">{item.a}</p>
-            </details>
-          ))}
+                  <span className="relative size-5 shrink-0 text-brass" aria-hidden="true">
+                    <span className="absolute left-0 top-1/2 h-px w-full bg-current" />
+                    <span className="absolute left-1/2 top-0 h-full w-px bg-current transition-transform duration-200 group-open:rotate-90" />
+                  </span>
+                </summary>
+                <div className="space-y-4 pb-7 pl-10 pr-10 text-[0.95rem] leading-relaxed text-muted md:pb-8 md:pl-16 md:pr-16 md:text-base">
+                  {paras.map((p) => (
+                    <p key={p}>{p}</p>
+                  ))}
+                </div>
+              </details>
+            );
+          })}
           <p className="my-8 md:hidden">
             <a className="btn w-full" href={pathFor("contact", locale)}>
               {t.enquire}

@@ -1,3 +1,4 @@
+import { Faq } from "../../components/Faq";
 import { OfferingView } from "../../components/OfferingView";
 import { SitePage } from "../../components/SitePage";
 import { copy } from "../../i18n";
@@ -21,7 +22,15 @@ export default function Page() {
         items={t.eventsPage.items}
         showLocation
         imagePosition="32% 38%"
-      />
+      >
+        <Faq
+          locale={locale}
+          items={t.eventsPage.faq}
+          label={t.eventsPage.faqLabel}
+          title={t.eventsPage.faqTitle}
+          intro={t.eventsPage.faqIntro}
+        />
+      </OfferingView>
     </SitePage>
   );
 }

@@ -2,13 +2,14 @@ export const site = {
   name: "Jani Siekkinen",
   domain: "https://janisiekkinen.com",
   instagramHandle: "jsiegopool",
+  instagramUrl: "https://www.instagram.com/jsiegopool/",
   email: "janisiekkinentmi@gmail.com",
   /** E.164 with + for schema/tel */
   phone: "+358407647729",
   phoneDisplay: "+358 40 764 7729",
   whatsapp: "358407647729",
-  /** Cloudflare Web Analytics token. Leave empty until set. */
-  analyticsToken: "",
+  /** GA4 Measurement ID (G-...). Leave empty until set; script and consent UI stay off. */
+  gaMeasurementId: "",
   /** Public Turnstile site key */
   turnstileSiteKey: "",
   pricingMode: "quote" as const,

@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import type { StaticImageData } from "next/image";
 import type { Locale } from "../config/site";
 import { copy, pageMeta } from "../i18n";
@@ -15,6 +16,7 @@ export function OfferingView({
   items,
   showLocation = false,
   imagePosition,
+  children,
 }: {
   locale: Locale;
   page: PageId;
@@ -24,6 +26,7 @@ export function OfferingView({
   items: readonly { title: string; body: string }[];
   showLocation?: boolean;
   imagePosition?: string;
+  children?: ReactNode;
 }) {
   const t = copy(locale);
   const meta = pageMeta(locale, page);
@@ -36,6 +39,7 @@ export function OfferingView({
       <div className="py-4 md:py-8">
         <EditorialList items={items} />
       </div>
+      {children}
       <CtaStrip locale={locale} />
     </>
   );

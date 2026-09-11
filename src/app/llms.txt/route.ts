@@ -43,7 +43,7 @@ function contactLines() {
   if (site.email) lines.push(`- Email: ${site.email}`);
   if (site.phoneDisplay) lines.push(`- Phone: ${site.phoneDisplay}`);
   if (site.whatsapp) lines.push(`- WhatsApp: https://wa.me/${site.whatsapp}`);
-  lines.push(`- Instagram: https://instagram.com/${site.instagramHandle}`);
+  lines.push(`- Instagram: ${site.instagramUrl}`);
   lines.push(`- Contact form: ${site.domain}${routePairs.contact.fi} (Finnish), ${site.domain}${routePairs.contact.en} (English)`);
   return lines;
 }
