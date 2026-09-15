@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { site, type Locale, type ServiceId } from "../config/site";
 import { copy } from "../i18n";
+import { trackEvent } from "../lib/analytics";
 import { cn } from "../lib/cn";
 
 const topics = ["private", "events", "repairs", "jersey", "sponsor", "other"] as const satisfies readonly ServiceId[];
@@ -43,6 +44,11 @@ export function ContactForm({ locale }: { locale: Locale }) {
       const json = (await res.json()) as { ok?: boolean };
       setStatus(json.ok ? t.form.ok : t.form.err);
       if (json.ok) {
+        trackEvent("generate_lead", {
+          lead_source: "contact_form",
+          service: topic || "other",
+          locale,
+        });
         form.reset();
         setTopic("");
       }
@@ -87,7 +93,10 @@ export function ContactForm({ locale }: { locale: Locale }) {
             <button
               key={id}
               type="button"
-              onClick={() => setTopic(id)}
+              onClick={() => {
+                setTopic(id);
+                trackEvent("select_service", { service: id, locale });
+              }}
               className={cn(
                 "min-h-11 px-3 text-[0.72rem] font-semibold uppercase tracking-[0.12em]",
                 topic === id ? "bg-ink text-rail" : "border border-ink/20 text-ink/80 hover:border-ink/45",

@@ -2,7 +2,7 @@ import type { Locale } from "../config/site";
 import { copy, pageMeta } from "../i18n";
 import { pathFor } from "../i18n/routes";
 import { PageHead } from "./PageHead";
-import portrait from "../assets/images/jani-portrait.jpg";
+import action from "../assets/images/break-shot.jpg";
 
 export function JaniView({ locale }: { locale: Locale }) {
   const t = copy(locale);
@@ -12,10 +12,9 @@ export function JaniView({ locale }: { locale: Locale }) {
       <PageHead
         kicker={t.jani.kicker}
         title={meta.h1}
-        image={portrait}
-        alt={t.alts.portrait}
-        imagePosition="center 18%"
-        layout="portrait"
+        image={action}
+        alt={t.alts.break}
+        imagePosition="32% 40%"
       />
       <div className="grid gap-12 border-t border-ink/10 px-5 py-14 md:gap-16 md:px-10 md:py-20 lg:grid-cols-12 lg:gap-x-8 lg:px-16 lg:py-28">
         <article className="lg:col-span-7">

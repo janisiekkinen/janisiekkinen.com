@@ -169,7 +169,7 @@ export function replyMail(input: {
   const given = firstName(input.name);
 
   if (input.locale === "en") {
-    const body = "Thanks for getting in touch. I'll read this shortly and get back to you as soon as I can.";
+    const body = "Thanks for getting in touch. I'll read this myself and get back to you as soon as I can.";
     const text = `Hey ${given},\n\n${body}\n\nJani\n${site.domain}`;
     const html = shell(body, `${kicker("Jani Siekkinen")}
 ${headline(`Hey, ${given}`)}
@@ -179,7 +179,7 @@ ${footer()}`);
     return { subject: "Thanks for the message · Jani Siekkinen", text, html };
   }
 
-  const body = "Kiitos yhteydenotosta. Luen tämän piakkoin ja palaan pikimmiten.";
+  const body = "Viesti tuli perille. Luen sen itse ja palaan.";
   const text = `Hei ${given},\n\n${body}\n\nJani\n${site.domain}`;
   const html = shell(body, `${kicker("Jani Siekkinen")}
 ${headline(`Hei, ${given}`)}

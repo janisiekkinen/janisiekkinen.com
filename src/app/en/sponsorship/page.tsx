@@ -1,3 +1,4 @@
+import { CurrentPartners } from "../../../components/CurrentPartners";
 import { OfferingView } from "../../../components/OfferingView";
 import { SitePage } from "../../../components/SitePage";
 import { copy } from "../../../i18n";
@@ -20,7 +21,9 @@ export default function Page() {
         intro={t.sponsorPage.intro}
         items={t.sponsorPage.items}
         imagePosition="center 52%"
-      />
+      >
+        <CurrentPartners label={t.sponsorPage.partnersLabel} />
+      </OfferingView>
     </SitePage>
   );
 }

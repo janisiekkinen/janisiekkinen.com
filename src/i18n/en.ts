@@ -18,7 +18,7 @@ export const en = {
     contact: "Contact",
     results: "Results",
   },
-  enquire: "Enquire",
+  enquire: "Get in touch",
   langSwitch: "FI",
   langSwitchLabel: "Vaihda suomeksi",
   footerLegal: "Jani Siekkinen",
@@ -54,7 +54,7 @@ export const en = {
     repairs: {
       title: "Cue repairs · Jani Siekkinen",
       description:
-        "Tip, ferrule and shaft put right by a working pro. Tell me what happened to the cue and you get an estimate of the work and the timeline.",
+        "Tip, ferrule and shaft put right. Tell me what happened to the cue and you get an estimate of the work and the timeline.",
       h1: "Repairs",
     },
     gameon: {
@@ -66,7 +66,7 @@ export const en = {
     sponsor: {
       title: "Partnership and sponsorship · Jani Siekkinen",
       description:
-        "Visibility on tour, on social and on the jersey. Tell me what you want to achieve and we build a partnership with a result you can see.",
+        "Visibility on tour, on social and on the jersey. Tell me what you want. Then I'll say what the partnership looks like.",
       h1: "Partners",
     },
     jani: {
@@ -111,8 +111,8 @@ export const en = {
     first: "Jani",
     last: "Siekkinen",
     proof: "Finnish 8-ball champion, 2018. Still competing internationally.",
-    lead: "I have played pool for a living since 2013. The same precision I compete with comes to your session, your company event and the night your crew keeps talking about.",
-    cta: "Enquire",
+    lead: "I have played pool for a living since 2013. I coach, run events and service cues at the same standard I compete at.",
+    cta: "Get in touch",
     alt: "Jani Siekkinen lining up a shot on tour",
   },
   stats: [
@@ -120,15 +120,15 @@ export const en = {
     { k: "2025", v: "Nationals silver, 10-ball" },
     { k: "10+", v: "years as a full-time pro" },
   ],
-  workLabel: "What you can book",
-  pitchLabel: "Why book me",
-  pitchTitle: "A working pro\nat the table",
+  workLabel: "What I do",
+  pitchLabel: "Why this",
+  pitchTitle: "Fundamentals first.\nThen the game.",
   pitchBody:
-    "I don't sell a course or a ready-made package. I coach at the same table I compete on, and I watch you play before I say anything. Then we fix the stroke, the tempo and the decisions: the things that break when the match tightens and a technique drill is no longer enough.",
+    "I don't sell a course or a ready-made package. I watch you play first. Then we fix the stroke, the tempo and the decisions: the things that break when the match tightens.",
   pitchPoints: [
     {
       k: "1-to-1",
-      v: "One player, one table, the whole session built around you. The content follows what your own game reveals. You are not sitting through a general lecture.",
+      v: "One player, one table, the whole session built around you. The content follows what your own game shows. Not a general lecture.",
     },
     {
       k: "Shows",
@@ -136,7 +136,7 @@ export const en = {
     },
     {
       k: "Sponsor",
-      v: "Tour, social and jerseys. Your mark travels to where the matches are, and the footage comes from real events, not from stock photos.",
+      v: "Tour, social and jerseys. Your mark travels to where the matches are. The pictures come from the events, not from stock photos.",
     },
     {
       k: "Helsinki",
@@ -146,11 +146,11 @@ export const en = {
   leads: {
     coaching: {
       title: "Coaching",
-      body: "A private session or a small group where everyone gets the same attention. We work through stroke, tempo and decisions and fix what breaks when the match tightens. You leave knowing exactly what to practise next.",
+      body: "A private session or a small group. We work through stroke, tempo and decisions and fix what breaks when the match tightens. After the hour you know what to practise next.",
     },
     events: {
       title: "Events",
-      body: "Private nights, Christmas parties and company days where the programme actually happens. Exhibition shots first, then cues in your guests' hands and a short brief, including for the people who have never played.",
+      body: "Private nights, Christmas parties and company days. Exhibition shots first, then cues in your guests' hands. Including the people who have never played.",
     },
     repairs: {
       title: "Repairs",
@@ -162,7 +162,7 @@ export const en = {
     },
     sponsor: {
       title: "Partners",
-      body: "Tour, social and jerseys give you visibility that comes out of real matches. Say what you want to achieve and what you bring, and we build a partnership whose result both of us can see.",
+      body: "Tour, social and jerseys. The visibility comes from the matches. Say what you want and what you bring. Then I'll say what it looks like.",
     },
   },
   services: {
@@ -182,11 +182,11 @@ export const en = {
   } satisfies Record<ServiceId, string>,
   coaching: {
     intro:
-      "Pool coaching in Helsinki at the same table I compete on. No ready-made package and no slogans: first we find where your game leaks, then we rebuild it correctly and repeat it until the fix holds under pressure too. After the session you know what to practise, why, and in what order.",
+      "I coach in Helsinki at the same table I compete on. No ready-made package: first we find where your game leaks. Then we rebuild it and repeat it until the fix holds under pressure too.",
     items: [
       {
         title: "Private 1-to-1",
-        body: "One player and my full attention. We go through stance, stroke and cue-ball control, but also the decisions: what you play when the easy pattern runs out. The content follows what your match reveals, not a lesson plan written in advance.",
+        body: "One player and my full attention. We go through stance, stroke and cue-ball control, but also the decisions: what you play when the easy pattern runs out. The content follows what your match shows, not a lesson plan written in advance.",
       },
       {
         title: "Small group 2–4",
@@ -241,7 +241,7 @@ export const en = {
         a: [
           "There is always someone in the hall who “can give a tip”. That someone usually teaches what works for them.",
           "At the top there are nutritionists, physios, psychologists and PTs. The gaps are made off the table too. Even the old-school players have worked out that the rest of life has to be in order if you want to last in this.",
-          "Same logic for a hobby player. An experienced player sees that the ball did not go in. A professional sees why it did not go in, and can say it so that you can fix it yourself. And it is not only technique. It is what you do when the game is not running. I have seen enough of that — in my own mirror.",
+          "Same logic for a hobby player. An experienced player sees that the ball did not go in. A professional sees why it did not go in, and can say it so that you can fix it yourself. And it is not only technique. It is what you do when the game is not running. I have seen enough of that, in my own mirror.",
         ],
       },
       {
@@ -273,7 +273,7 @@ export const en = {
       {
         q: "Groups, companies, schools",
         a: [
-          "The fundamentals, the rules, the start of a stroke — and a match.",
+          "The fundamentals, the rules, the start of a stroke, and a match.",
           "I have seen enough players at different levels that the basic notes go in quickly. In group sessions the starting point is: learn, try, play. For a company it is a day out that is not a fake team-building exercise. For school groups it is a sport where you can do well without being the biggest or the fastest.",
           "Fun is not the opposite of learning. It is the reason people come back to the table.",
         ],
@@ -290,7 +290,7 @@ export const en = {
   },
   eventsPage: {
     intro:
-      "A private night, a Christmas party, a kickoff or a staff day that also works for the people who have never held a cue. We open with exhibition shots, continue with a short brief and spend the rest of the evening playing. The venue can be yours or we find a suitable hall. Tables are needed, the rest is on me.",
+      "A private night, a Christmas party, a kickoff or a staff day. It also works for the person who has never held a cue. Exhibition shots, a short brief, the rest of the evening we play. The venue can be yours or we find a hall. Tables are needed, the rest is on me.",
     items: [
       {
         title: "Private events",
@@ -386,7 +386,7 @@ export const en = {
   },
   repairsPage: {
     intro:
-      "I service cues to the standard I demand from my own. Tip, ferrule and shaft are checked, and you get an estimate of the work and the timeline before anything is done. Tell me what happened to the cue and how the hit feels now, and I'll come back with a measure rather than a guess.",
+      "I service cues to the standard I demand from my own. Tip, ferrule and shaft. You get an estimate of the work and the timeline before anything is done. Tell me what happened to the cue and how the hit feels now.",
     items: [
       {
         title: "Tip and ferrule",
@@ -400,25 +400,26 @@ export const en = {
   },
   gameonPage: {
     intro:
-      "GameOn jerseys are built for playing: they take practice, look right at the table and don't restrict the stroke. Sizes and stock move, so there is no webshop at this stage. Send size and quantity through the form and you'll get an answer on availability and price.",
+      "GameOn jerseys are built for playing. Sizes and stock move, so there is no webshop. Send size and quantity through the form and I'll come back with availability and price.",
     items: [
       {
         title: "Order",
-        body: "Tell me the size, the quantity and where the jerseys are going: your own game, a club or a crew. I'll come back with price and delivery. No invented prices here; once the numbers are locked, they go on the page.",
+        body: "Tell me the size, the quantity and where the jerseys are going: your own game, a club or a crew. I'll come back with price and delivery. No prices on the page until they are locked.",
       },
     ],
   },
   sponsorPage: {
     intro:
-      "Partnering with me means visibility that comes out of real matches: tour events, practice, social and the jersey. There is no ready-made package, because the best partnership is built from the goal. Tell me what you want to achieve and what you bring, and I'll propose what that looks like in practice.",
+      "Partnering with me is visibility from the matches: tour, practice, social and the jersey. There is no ready-made package, because the job is built from the goal. Tell me what you want and what you bring. Then I'll say what it looks like.",
+    partnersLabel: "Current partners",
     items: [
       {
         title: "Jerseys and the tour",
-        body: "Your mark where the matches are: competition, practice and travel. International tour events carry the visibility beyond Finland, and the agreed appearances are written down before the season.",
+        body: "Your mark where the matches are: competition, practice and travel. International tour events take it beyond Finland. The agreed work is written down before the season.",
       },
       {
         title: "Social and appearances",
-        body: "Instagram, booked nights and content made together. We agree what actually happens and on what schedule, so you know what you are paying for. No bought reach.",
+        body: "Instagram, booked nights and content made together. We agree what actually happens and on what schedule, so you know what you are paying for. Empty visibility is not for sale.",
       },
       {
         title: "Local partners",
@@ -428,9 +429,9 @@ export const en = {
   },
   jani: {
     kicker: "Player",
-    p1: "Jani Siekkinen, born 19 April 1987 in Helsinki. Competitive sport started in goal on a football pitch and led to a European cheerleading title with Funky Team Gorillaz, before the pool table took over for good.",
-    p2: "Full-time pool professional since 2013. The games are 8-ball, 9-ball, 10-ball and straight pool, and the years at the table show in how quickly another player's mistake becomes visible. Some call him Siego. That's enough of that.",
-    p3: "Still competing internationally at Euro Tour and WNT level, with US Open appearances and a best finish around 33rd according to the press. The same game we work through in a session is therefore still being tested every season.",
+    p1: "I came to pool as an adult. First a goalkeeper, then a European cheerleading champion with Funky Team Gorillaz. Then this table took over.",
+    p2: "Born in Helsinki on 19 April 1987. Full-time pool professional since 2013. The games are 8-ball, 9-ball, 10-ball and straight pool. The years at the table show in how quickly another player's mistake becomes visible. Some people call me Siego. That's enough of that.",
+    p3: "I still compete on the Euro Tour and WNT, and I have played the US Open. Best finish around 33rd, according to the press. The same game we work through in a session is tested every season, by me.",
     pressLabel: "In the press",
     press: [
       {
@@ -448,7 +449,7 @@ export const en = {
     ],
   },
   resultsIntro:
-    "These are the results that can be put in writing without inventing medals. They also say something simple: the coaching comes from a player still in serious competition.",
+    "These are the results I can put in writing without inventing medals. I am still competing.",
   results: [
     { year: "2018", text: "Finnish champion, 8-ball" },
     { year: "2025", text: "10-ball Finnish Championship silver" },
@@ -459,7 +460,7 @@ export const en = {
   faqLabel: "Good to know",
   faqTitle: "Before the first\nshot",
   faqIntro:
-    "Venue, level and format are always shaped around your situation, so you don't need to know anything in advance. Here are the questions that come up most often. If yours isn't on the list, just ask through the form.",
+    "Venue, level and the job are shaped around where you start. You don't need to know anything in advance. These are the questions that come up most often. If yours isn't on the list, ask through the form.",
   faq: [
     {
       q: "Is this pool or billiards?",
@@ -467,7 +468,7 @@ export const en = {
     },
     {
       q: "Where do you coach?",
-      a: "Regularly in the Helsinki region and elsewhere in Finland by agreement. We can play at a hall you already know or find a suitable table, and house calls and longer trips are arranged case by case.",
+      a: "Regularly in the Helsinki region and elsewhere in Finland by agreement. We play at a hall you already know or we find a table. House calls and longer trips are arranged case by case.",
     },
     {
       q: "What is a private session?",
@@ -475,14 +476,14 @@ export const en = {
     },
     {
       q: "Absolute beginner?",
-      a: "Yes, and many are. Fundamentals sit on their own track: grip, stance and cue-ball control taken calmly and in order. Tournament players have a separate path, so nobody spends their time at the wrong level.",
+      a: "Yes, and many are. Fundamentals are their own thing: grip, stance and cue-ball control, calmly and in order. Tournament players have a separate path, so nobody spends the hour at the wrong level.",
     },
     {
       q: "Companies?",
       a: "Absolutely. The programme is built around group size and the length of the evening so that first-timers play too. Tables are needed: the venue can be yours, or we find a suitable hall together.",
     },
     {
-      q: "What's in an event?",
+      q: "What does an event cost?",
       a: "The price depends on the venue, the duration and the size of the group, so every event gets its own quote. Put the venue, headcount and date on the form and you'll get a clear price without extra rounds.",
     },
     {
@@ -491,7 +492,7 @@ export const en = {
     },
     {
       q: "Sponsorship?",
-      a: "Very much so. Read the partners page, then say on the form which brand you represent, what you want to achieve and what you expect: jerseys, social or the tour. I'll propose something measurable in return.",
+      a: "Very much so. Read the partners page, then say on the form which brand you represent, what you want and what you expect: jerseys, social or the tour. I'll come back with a proposal.",
     },
   ],
   form: {
@@ -508,15 +509,15 @@ export const en = {
     err: "The message could not be sent. Try again, or email me directly.",
   },
   contactLead:
-    "Send your name, your email and a short note on what you need: coaching, an event, a repair, a jersey or a partnership. I read every message myself and reply personally, not with a form letter.",
+    "Send your name, your email and a short note on what you need. Coaching, an event, a repair, a jersey or a partnership. I read every message myself and reply myself, not with an auto-reply.",
   cookie: {
     title: "Analytics",
-    text: "Google Analytics measures visits. The script loads only if you accept. Data is not used for ads.",
-    accept: "Accept",
-    decline: "No thanks",
+    text: "This site uses Google Analytics to measure visits. Data is not used for ads.",
+    accept: "OK",
+    decline: "Close",
   },
   privacyAnalytics:
-    "The site uses Google Analytics 4 (Google LLC) to measure visits and page use. Cookies and the tracking script start only after you accept analytics. IP addresses are anonymised. Data is not sold or used for advertising.",
+    "The site uses Google Analytics 4 (Google LLC) to measure visits and page use. IP addresses are anonymised. Data is not sold or used for advertising.",
   privacyBody: [
     "The form sends your name, email, optional phone number and message straight to my inbox so that I can reply. Nothing else is collected.",
     "There is no tracking, no ad pixels and no analytics on this site. Data is not sold or passed on for marketing.",

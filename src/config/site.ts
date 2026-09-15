@@ -8,8 +8,8 @@ export const site = {
   phone: "+358407647729",
   phoneDisplay: "+358 40 764 7729",
   whatsapp: "358407647729",
-  /** GA4 Measurement ID (G-...). Leave empty until set; script and consent UI stay off. */
-  gaMeasurementId: "",
+  /** GA4 Measurement ID (G-...). Leave empty until set; script and notice stay off. */
+  gaMeasurementId: "G-M2JKFB83W0",
   /** Public Turnstile site key */
   turnstileSiteKey: "",
   pricingMode: "quote" as const,

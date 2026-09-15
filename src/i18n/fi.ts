@@ -54,7 +54,7 @@ export const fi = {
     repairs: {
       title: "Keppihuollot · Jani Siekkinen",
       description:
-        "Kärki, ferruli ja shaft kuntoon ammattilaisen käsissä. Kerro, mitä kepille tapahtui, niin saat arvion työstä ja aikataulusta.",
+        "Kärki, ferruli ja shaft kuntoon. Kerro, mitä kepille tapahtui, niin saat arvion työstä ja aikataulusta.",
       h1: "Huollot",
     },
     gameon: {
@@ -66,7 +66,7 @@ export const fi = {
     sponsor: {
       title: "Yhteistyö ja sponsorointi · Jani Siekkinen",
       description:
-        "Näkyvyyttä kiertueella, somessa ja pelipaidoissa. Kerro, mitä tavoittelet, niin rakennetaan yhteistyö, jonka tuloksen molemmat näkevät.",
+        "Näkyvyyttä kiertueella, somessa ja pelipaidoissa. Kerro, mitä tavoittelet. Sitten ehdotan, miltä yhteistyö näyttää.",
       h1: "Yhteistyö",
     },
     jani: {
@@ -111,7 +111,7 @@ export const fi = {
     first: "Jani",
     last: "Siekkinen",
     proof: "8-pallon Suomen mestari 2018. Edelleen kansainvälisillä kiertueilla.",
-    lead: "Olen pelannut poolia ammatikseni vuodesta 2013. Sama tarkkuus, jolla kilpailen, tulee mukaan valmennukseesi, yrityksesi tapahtumaan ja iltaan, joka jää porukalle mieleen.",
+    lead: "Olen pelannut poolia ammatikseni vuodesta 2013. Valmennan, vedän tilaisuuksia ja huollan keppejä sillä tarkkuudella, jolla itse kilpailen.",
     cta: "Ota yhteyttä",
     alt: "Jani Siekkinen tähtää kiertueella",
   },
@@ -120,15 +120,15 @@ export const fi = {
     { k: "2025", v: "SM-hopea, 10-pallo" },
     { k: "10+", v: "vuotta poolammattilaisena" },
   ],
-  workLabel: "Mitä voit tilata",
-  pitchLabel: "Miksi tilata minut",
-  pitchTitle: "Ammattilainen\npöydän ääressä",
+  workLabel: "Mitä teen",
+  pitchLabel: "Miksi tämä",
+  pitchTitle: "Perusteet kuntoon.\nSitten peli.",
   pitchBody:
-    "En myy kurssia enkä valmiita paketteja. Valmennan samalla pöydällä, jolla itse kilpailen, ja katson ensin, miten sinä pelaat. Sen jälkeen korjataan lyönti, rytmi ja päätökset, juuri ne asiat, jotka pettävät, kun peli kiristyy ja pelkkä tekniikkaharjoitus ei enää riitä.",
+    "En myy kurssia enkä valmista pakettia. Katson ensin, miten pelaat. Sitten korjataan lyönti, rytmi ja päätökset: ne asiat, jotka pettävät, kun peli kiristyy.",
   pitchPoints: [
     {
       k: "1-to-1",
-      v: "Yksi pelaaja, yksi pöytä, koko tunti sinua varten. Sisältö rakennetaan sen mukaan, mitä oma pelisi paljastaa. Et istu kuuntelemassa yleistä luentoa.",
+      v: "Yksi pelaaja, yksi pöytä, koko tunti sinua varten. Sisältö tulee siitä, mitä oma pelisi näyttää. Ei yleistä luentoa.",
     },
     {
       k: "Show",
@@ -136,7 +136,7 @@ export const fi = {
     },
     {
       k: "Sponsori",
-      v: "Kiertue, some ja pelipaidat. Merkki näkyy siellä, missä pelataan, ja kuvat syntyvät oikeista otteluista, ei kuvituskuvasta.",
+      v: "Kiertue, some ja pelipaidat. Merkki näkyy siellä, missä pelataan. Kuvat tulevat kisoista, ei kuvituskuvasta.",
     },
     {
       k: "Helsinki",
@@ -146,11 +146,11 @@ export const fi = {
   leads: {
     coaching: {
       title: "Valmennukset",
-      body: "Yksityistunti tai pieni ryhmä, jossa jokainen saa saman huomion. Käydään läpi lyönti, rytmi ja päätökset ja korjataan se, mikä hajoaa, kun peli kiristyy. Lähdet pöydän äärestä tietäen tarkalleen, mitä harjoittelet seuraavaksi.",
+      body: "Yksityistunti tai pieni ryhmä. Käydään lyönti, rytmi ja päätökset, ja korjataan se, mikä hajoaa, kun peli kiristyy. Tunnin jälkeen tiedät, mitä treenaat seuraavaksi.",
     },
     events: {
       title: "Tilaisuudet",
-      body: "Yksityiset illat, pikkujoulut ja yrityspäivät, joissa ohjelma ei jää vain puheeksi. Showlyönnit ensin, sitten kepit vieraiden käsiin ja lyhyt opastus, myös niille, jotka eivät ole pelanneet koskaan.",
+      body: "Yksityiset illat, pikkujoulut ja yrityspäivät. Showlyönnit ensin, sitten kepit vieraiden käsiin. Myös niille, jotka eivät ole pelanneet koskaan.",
     },
     repairs: {
       title: "Huollot",
@@ -162,7 +162,7 @@ export const fi = {
     },
     sponsor: {
       title: "Yhteistyö",
-      body: "Kiertue, some ja pelipaidat tarjoavat näkyvyyttä, joka syntyy oikeista otteluista. Kerro, mitä tavoittelet ja mitä sinulla on tarjota, niin rakennetaan yhteistyö, jonka tuloksen molemmat näkevät.",
+      body: "Kiertue, some ja pelipaidat. Näkyvyys tulee kisoista. Kerro, mitä tavoittelet ja mitä sinulla on tarjota. Sitten ehdotan, miltä se näyttää.",
     },
   },
   services: {
@@ -182,11 +182,11 @@ export const fi = {
   } satisfies Record<ServiceId, string>,
   coaching: {
     intro:
-      "Biljardivalmennusta Helsingissä samalla pöydällä, jolla itse kilpailen. Ei valmista pakettia eikä sloganeita: katsotaan ensin, missä peli vuotaa, sitten tehdään se uudestaan oikein ja niin monta kertaa, että korjaus pysyy myös paineessa. Tunnin jälkeen tiedät, mitä harjoittelet, miksi ja missä järjestyksessä.",
+      "Valmennan Helsingissä samalla pöydällä, jolla itse kilpailen. Ei valmista pakettia: katsotaan ensin, missä peli vuotaa. Sitten tehdään se uudestaan niin monta kertaa, että korjaus pysyy myös paineessa.",
     items: [
       {
         title: "Yksityinen 1-to-1",
-        body: "Yksi pelaaja ja koko huomio sinulle. Käydään läpi asento, lyönti ja valkoisen hallinta, mutta myös päätökset: mitä pelaat, kun helppo kuvio loppuu. Sisältö määräytyy sen mukaan, mitä ottelusi paljastaa, ei etukäteen tehdystä tuntisuunnitelmasta.",
+        body: "Yksi pelaaja ja koko huomio sinulle. Käydään asento, lyönti ja valkoisen hallinta, mutta myös päätökset: mitä pelaat, kun helppo kuvio loppuu. Sisältö tulee siitä, mitä ottelusi näyttää, ei etukäteen tehdystä tuntisuunnitelmasta.",
       },
       {
         title: "Pienryhmä 2–4",
@@ -202,7 +202,7 @@ export const fi = {
       },
       {
         title: "Videoanalyysi",
-        body: "Kuvaat lyöntejäsi puhelimella ja lähetät klipit. Saat takaisin konkreettiset korjaukset ja harjoitteet järjestyksessä. Et saa yleistä luentoa, vaan sen, mikä nostaa tasoa nopeimmin.",
+        body: "Kuvaat lyöntejäsi puhelimella ja lähetät klipit. Saat takaisin konkreettiset korjaukset ja harjoitteet järjestyksessä. Et saa yleistä luentoa. Saat sen, mikä nostaa tasoa nopeimmin.",
       },
     ],
     faqLabel: "Jani vastaa",
@@ -259,7 +259,7 @@ export const fi = {
         a: [
           "Se ei ole taikatemppu eikä “kolme vinkkiä, joilla voitat aina”.",
           "Se ei ole myöskään se, että mä lyön sun puolesta. Mä voin näyttää, selittää ja korjata. Sun pitää lyödä.",
-          "Eikä se ole arvostelua. Olen nähnyt tarpeeksi sitä, miltä tuntuu, kun peli ei kulje. Tunnilla saa missata. Missi on tietoa. Siitä lähdetään.",
+          "Eikä se ole arvostelua. Olen nähnyt tarpeeksi sitä, miltä tuntuu, kun peli ei kulje. Tunnilla saa missata. Missi on dataa. Siitä lähdetään."
         ],
       },
       {
@@ -290,7 +290,7 @@ export const fi = {
   },
   eventsPage: {
     intro:
-      "Yksityinen ilta, pikkujoulut, kickoff tai TYKY-päivä, jossa ohjelma toimii myös niille, jotka eivät ole ennen pitäneet keppiä kädessä. Aloitetaan showlyönneillä, jatketaan lyhyellä opastuksella ja loppuilta pelataan. Paikka voi olla teidän tai etsitään sopiva halli. Pöydät tarvitaan, muusta huolehdin minä.",
+      "Yksityinen ilta, pikkujoulut, kickoff tai TYKY. Ohjelma toimii myös sille, joka ei ole pitänyt keppiä kädessä. Showlyönnit, lyhyt opastus, loppuilta pelataan. Paikka voi olla teidän tai etsitään halli. Pöydät tarvitaan, muusta huolehdin minä.",
     items: [
       {
         title: "Yksityistilaisuudet",
@@ -386,7 +386,7 @@ export const fi = {
   },
   repairsPage: {
     intro:
-      "Huollan kepit samalla tarkkuudella, jolla vaadin omiltani. Kärki, ferruli ja shaft käydään läpi, ja saat arvion työstä ja aikataulusta ennen kuin mitään tehdään. Kerro, mitä kepille on tapahtunut ja miltä lyönti nyt tuntuu, niin palaan tarkalla arviolla, en arvauksella.",
+      "Huollan kepit siihen kuntoon, jota vaadin omiltani. Kärki, ferruli ja shaft. Saat arvion työstä ja aikataulusta ennen kuin mitään tehdään. Kerro, mitä kepille on tapahtunut ja miltä lyönti nyt tuntuu.",
     items: [
       {
         title: "Kärki ja ferruli",
@@ -400,21 +400,22 @@ export const fi = {
   },
   gameonPage: {
     intro:
-      "GameOn-pelipaidat on tehty pelaamiseen: ne kestävät treeniä, näyttävät hyvältä pöydän ääressä eivätkä rajoita lyöntiä. Koot ja saatavuus vaihtelevat, joten verkkokauppaa ei tässä vaiheessa ole. Kerro koko ja määrä lomakkeella, niin saat vastauksen saatavuudesta ja hinnasta.",
+      "GameOn-paidat on tehty pelaamiseen. Koot ja saatavuus vaihtelevat, joten verkkokauppaa ei ole. Kerro koko ja määrä lomakkeella, niin palaan saatavuuden ja hinnan kanssa.",
     items: [
       {
         title: "Tilaus",
-        body: "Kerro koko, määrä ja mihin paidat tulevat: omaan peliin, seuralle vai porukalle. Palaan hinnan ja toimitusajan kanssa. Hintoja ei ole vielä sivulla. Kun hinnat on päätetty, ne tulevat tänne.",
+        body: "Kerro koko, määrä ja mihin paidat tulevat: omaan peliin, seuralle vai porukalle. Palaan hinnan ja toimitusajan kanssa. Hintoja ei ole sivulla, ennen kuin ne on päätetty.",
       },
     ],
   },
   sponsorPage: {
     intro:
-      "Yhteistyö kanssani tarkoittaa näkyvyyttä, joka syntyy oikeista otteluista: kiertueen turnauksissa, treeneissä, somessa ja pelipaidoissa. Valmista pakettia ei ole, koska paras yhteistyö rakennetaan tavoitteesta käsin. Kerro, mitä tavoittelet ja mitä sinulla on tarjota, niin ehdotan, miltä se käytännössä näyttää.",
+      "Yhteistyö kanssani on näkyvyyttä kisoista: kiertue, treenit, some ja pelipaidat. Valmista pakettia ei ole, koska homma rakennetaan tavoitteesta. Kerro, mitä haluat ja mitä sinulla on tarjota. Sitten ehdotan, miltä se näyttää.",
+    partnersLabel: "Nykyiset kumppanit",
     items: [
       {
         title: "Paidat ja kiertue",
-        body: "Logo siellä, missä pelataan: kilpailuissa, treeneissä ja matkoilla. Kansainväliset kiertueet tuovat näkyvyyden myös Suomen ulkopuolelle, ja sovitut esiintymiset kirjataan ennen kautta.",
+        body: "Logo siellä, missä pelataan: kisoissa, treeneissä ja matkoilla. Kansainväliset kiertueet vievät merkin myös Suomen ulkopuolelle. Sovitut hommat kirjataan ennen kautta.",
       },
       {
         title: "Some ja keikat",
@@ -428,9 +429,9 @@ export const fi = {
   },
   jani: {
     kicker: "Pelaaja",
-    p1: "Jani Siekkinen, s. 19.4.1987 Helsingissä. Kilpaurheilu alkoi jalkapallomaalivahtina ja jatkui cheerleadingin Euroopan mestaruuteen Funky Team Gorillazin kanssa, ennen kuin poolpöytä vei lopullisesti mukanaan.",
-    p2: "Poolammattilainen vuodesta 2013. Pelilajeina 8-pallo, 9-pallo, 10-pallo ja suora pallo, ja pöydän ääressä vietetyt vuodet näkyvät siinä, miten nopeasti toisen pelaajan virhe löytyy. Minua kutsutaan joskus Siegoksi. Se jää tähän.",
-    p3: "Kilpailee edelleen kansainvälisesti Euro Tourilla ja WNT:llä, ja on pelannut myös US Openissa, jossa paras sija on lehdistön mukaan 33. Sama peli, jota valmennuksissa käydään läpi, on siis edelleen koetuksella joka kausi.",
+    p1: "Tulin pooliin aikuisena. Ensin maalivahdiksi, sitten cheerleadingin Euroopan mestariksi Funky Team Gorillazin kanssa. Sitten tämä pöytä vei mukanaan.",
+    p2: "Syntynyt Helsingissä 19.4.1987. Poolammattilainen vuodesta 2013. Pelilajeina 8-pallo, 9-pallo, 10-pallo ja suora pallo. Vuodet pöydän ääressä näkyvät siinä, miten nopeasti toisen pelaajan virhe löytyy. Minua kutsutaan joskus Siegoksi. Se jää tähän.",
+    p3: "Kilpailen edelleen Euro Tourilla ja WNT:llä, ja olen pelannut US Openissa. Paras sija on lehdistön mukaan 33. Sama peli, jota valmennuksissa käydään läpi, on joka kausi itse koetuksella.",
     pressLabel: "Mediassa",
     press: [
       {
@@ -448,7 +449,7 @@ export const fi = {
     ],
   },
   resultsIntro:
-    "Nämä ovat tulokset, jotka voidaan kirjoittaa ilman keksittyjä mitaleita. Ne kertovat, että valmennus tulee pelaajalta, joka on edelleen itse kovassa kilpailussa.",
+    "Nämä ovat tulokset, jotka voin kirjoittaa ilman keksittyjä mitaleita. Valmennus tulee pelaajalta, joka on itse edelleen kisassa.",
   results: [
     { year: "2018", text: "8-pallon Suomen mestari" },
     { year: "2025", text: "10-pallon SM-hopea" },
@@ -459,7 +460,7 @@ export const fi = {
   faqLabel: "Hyvä tietää",
   faqTitle: "Ennen ensimmäistä\nlyöntiä",
   faqIntro:
-    "Paikka, taso ja toteutus sovitaan aina tilanteesi mukaan, joten mitään ei tarvitse osata etukäteen. Tässä tavallisimmat kysymykset. Jos oma tilanteesi ei löydy listalta, kysy suoraan lomakkeella.",
+    "Paikka, taso ja homma sovitaan sen mukaan, mistä lähdetään. Mitään ei tarvitse osata etukäteen. Tässä ne kysymykset, jotka tulevat useimmin. Jos oma juttusi ei ole listalla, kysy lomakkeella.",
   faq: [
     {
       q: "Onko tämä poolia vai biljardia?",
@@ -467,15 +468,15 @@ export const fi = {
     },
     {
       q: "Missä valmennus on?",
-      a: "Helsingin seudulla säännöllisesti ja muualla Suomessa sopimuksen mukaan. Voimme pelata sinulle tutussa hallissa tai etsiä sopivan pöydän, ja kotikäynnit sekä pidemmät matkat neuvotellaan tapauskohtaisesti.",
+      a: "Helsingin seudulla säännöllisesti ja muualla Suomessa sopimuksen mukaan. Pelataan sinulle tutussa hallissa tai etsitään sopiva pöytä. Kotikäynnit ja pidemmät matkat sovitaan tapauskohtaisesti.",
     },
     {
       q: "Mitä yksityistunti on?",
-      a: "Tunti pöydän ääressä kahden kesken, ei ryhmäluentoa. Katson ensin, miten pelaat, ja sen jälkeen työstämme sitä kohtaa, jossa peli vuotaa. Lähdet mukaasi selkeän harjoitusohjelman, jota voit tehdä yksin.",
+      a: "Tunti pöydän ääressä kahden kesken, ei ryhmäluentoa. Katson ensin, miten pelaat, ja sen jälkeen työstetään se kohta, jossa peli vuotaa. Saat mukaasi selkeän treeniohjelman, jota voit tehdä yksin.",
     },
     {
       q: "Voiko tulla nollasta?",
-      a: "Kyllä, ja moni tuleekin. Alkeet kulkevat omalla raiteellaan: ote, asento ja valkoisen hallinta rauhassa järjestyksessä. Kisaajille on oma polku, joten kummankaan aika ei mene toisen tasolla harjoitteluun.",
+      a: "Kyllä, ja moni tuleekin. Alkeet ovat oma juttunsa: ote, asento ja valkoisen hallinta rauhassa järjestyksessä. Kisaajille on oma polku, joten kummankaan aika ei mene toisen tasolla.",
     },
     {
       q: "Entä yritystapahtuma?",
@@ -491,7 +492,7 @@ export const fi = {
     },
     {
       q: "Voiko sponsoroinnista puhua?",
-      a: "Ehdottomasti. Katso ensin yhteistyösivu ja kerro sitten lomakkeella merkki, tavoite ja se, mitä odotat: paidat, some vai kiertue. Ehdotan takaisin kokonaisuuden, joka on mitattavissa.",
+      a: "Ehdottomasti. Katso ensin yhteistyösivu ja kerro lomakkeella merkki, tavoite ja mitä odotat: paidat, some vai kiertue. Palaan ehdotuksella.",
     },
   ],
   form: {
@@ -508,15 +509,15 @@ export const fi = {
     err: "Lähetys ei onnistunut. Kokeile uudestaan tai laita viesti suoraan sähköpostilla.",
   },
   contactLead:
-    "Kerro nimesi, sähköpostisi ja lyhyesti, mitä tarvitset: valmennusta, tilaisuutta, huoltoa, pelipaitaa tai yhteistyötä. Luen jokaisen viestin itse ja vastaan henkilökohtaisesti, en automaattiviestillä.",
+    "Kerro nimesi, sähköpostisi ja lyhyesti, mitä tarvitset. Valmennusta, tilaisuutta, huoltoa, pelipaitaa tai yhteistyötä. Luen jokaisen viestin itse ja vastaan itse, en automaatilla.",
   cookie: {
     title: "Seuranta",
-    text: "Google Analytics mittaa kävijämääriä. Seurantakoodi latautuu vasta, jos hyväksyt. Tietoja ei käytetä mainontaan.",
-    accept: "Hyväksy",
-    decline: "Ei kiitos",
+    text: "Sivusto käyttää Google Analyticsia kävijämäärien mittaamiseen. Tietoja ei käytetä mainontaan.",
+    accept: "Selvä",
+    decline: "Sulje",
   },
   privacyAnalytics:
-    "Sivusto käyttää Google Analytics 4 -mittausta (Google LLC) kävijämäärien ja sivujen käytön seuraamiseen. Evästeet ja seurantaskripti tulevat voimaan vasta, kun hyväksyt seurannan. IP-osoite anonymisoidaan. Tietoja ei myydä eikä käytetä mainontaan.",
+    "Sivusto käyttää Google Analytics 4 -mittausta (Google LLC) kävijämäärien ja sivujen käytön seuraamiseen. IP-osoite anonymisoidaan. Tietoja ei myydä eikä käytetä mainontaan.",
   privacyBody: [
     "Lomake lähettää nimen, sähköpostin, mahdollisen puhelinnumeron ja viestin suoraan sähköpostiini, jotta voin vastata sinulle. Muuta tietoa ei kerätä.",
     "Sivustolla ei ole seurantaa, mainospikseleitä eikä analytiikkaa. Tietoja ei myydä eikä luovuteta eteenpäin markkinointiin.",

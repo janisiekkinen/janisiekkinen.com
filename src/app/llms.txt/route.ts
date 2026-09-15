@@ -71,7 +71,7 @@ function body() {
     "- Schools and youth sessions.",
     "- Cue repairs: tip, ferrule and shaft work, quoted before any work starts.",
     "- GameOn jerseys: sizes and stock vary, ordered via the form; there is no webshop.",
-    "- Sponsorship and partnerships: jersey, tour, social media and local collaborations.",
+    "- Sponsorship and partnerships: jersey, tour, social media and local collaborations. Current partners: Mezz Cues, Sisubiljardi, Taom Billiards, Holly Case.",
     "",
     "## Pages (Finnish)",
     "",
