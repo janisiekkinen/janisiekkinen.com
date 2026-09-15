@@ -534,6 +534,15 @@ export const fi = {
   ],
   tipsIndex:
     "Lyhyitä muistiinpanoja pöydän äärestä: harjoituksia, korjauksia ja huomioita, jotka voi viedä suoraan seuraavaan treeniin. Ei viikkokirjettä eikä täytesisältöä.",
+  notFound: {
+    metaTitle: "Sivua ei löydy · Jani Siekkinen",
+    metaDescription: "Tätä osoitetta ei ole. Palaa etusivulle ja lyö uudestaan.",
+    kicker: "404",
+    title: "Väärä pussi",
+    lead: "Scratch. Tätä osoitetta ei ole, ja valkoinen on lattialla.",
+    body: "Ei tuomaria, ei sakkoa. Peli jatkuu etusivulta. Valmennus, huolto ja yhteistyö ovat yhä täällä. Vain tämä URL meni ohi.",
+    home: "Etusivulle",
+  },
   alts: {
     hands: "Jani Siekkinen tähtää, liitu kepin varrella",
     break: "Jani Siekkinen tähtää Suomen pelipaidassa, katsomo taustalla",

@@ -534,6 +534,15 @@ export const en = {
   ],
   tipsIndex:
     "Short notes from the table: drills, corrections and observations you can take straight into your next session. No newsletter and no filler.",
+  notFound: {
+    metaTitle: "Page not found · Jani Siekkinen",
+    metaDescription: "This address isn't on the table. Go home and shoot again.",
+    kicker: "404",
+    title: "Wrong pocket",
+    lead: "Scratch. This address isn't here, and the cue ball's on the floor.",
+    body: "No referee, no foul. The match continues from the home page. Coaching, repairs and partnerships are still here. Only this URL missed.",
+    home: "Home",
+  },
   alts: {
     hands: "Jani Siekkinen lining up a shot, chalk on the rail",
     break: "Jani Siekkinen lining up a shot in the Finland jersey, crowd behind",
