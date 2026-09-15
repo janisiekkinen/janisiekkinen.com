@@ -72,13 +72,13 @@ export const en = {
     jani: {
       title: "Jani Siekkinen · professional pool player",
       description:
-        "Born 1987 in Helsinki. Full-time pool professional since 2013, Finnish 8-ball champion 2018 and still competing internationally.",
+        "Born 1987 in Helsinki. Full-time pool professional since 2013, more than 20 Finnish championship medals, Finnish 8-ball champion 2018 and still competing internationally.",
       h1: "Jani Siekkinen",
     },
     results: {
       title: "Results · Jani Siekkinen",
       description:
-        "Finnish 8-ball title 2018, 10-ball nationals silver 2025, national pairs golds, the first Finnish Pool Tour event win and US Open appearances.",
+        "More than 20 Finnish championship medals, Finnish 8-ball title 2018, 10-ball nationals silver 2025, national pairs golds, the first Finnish Pool Tour event win and US Open appearances.",
       h1: "Results",
     },
     tips: {
@@ -432,7 +432,7 @@ export const en = {
     kicker: "Player",
     p1: "I came to pool as an adult. First a goalkeeper, then a European cheerleading champion with Funky Team Gorillaz. Then this table took over.",
     p2: "Born in Helsinki on 19 April 1987. Full-time pool professional since 2013. The games are 8-ball, 9-ball, 10-ball and straight pool. The years at the table show in how quickly another player's mistake becomes visible. Some people call me Siego. That's enough of that.",
-    p3: "I still compete on the Euro Tour and WNT, and I have played the US Open. Best finish around 33rd, according to the press. The same game we work through in a session is tested every season, by me.",
+    p3: "I still compete on the Euro Tour and WNT, and I have played the US Open. Best finish around 33rd. More than 20 Finnish championship medals along the way. The same game we work through in a session is tested every season, by me.",
     pressLabel: "In the press",
     press: [
       {
@@ -452,11 +452,12 @@ export const en = {
   resultsIntro:
     "These are the results I can put in writing without inventing medals. I am still competing.",
   results: [
+    { year: "20+", text: "Finnish championship medals" },
     { year: "2018", text: "Finnish champion, 8-ball" },
     { year: "2025", text: "10-ball Finnish Championship silver" },
     { year: "2015, 2018", text: "National pairs titles (gold)" },
     { year: "2015", text: "Winner of the first Finnish Pool Tour event" },
-    { year: "-", text: "US Open appearances; best finish around 33rd, according to the press." },
+    { year: "-", text: "US Open appearances; best finish around 33rd." },
   ],
   faqLabel: "Good to know",
   faqTitle: "Before the first\nshot",

@@ -72,13 +72,13 @@ export const fi = {
     jani: {
       title: "Jani Siekkinen · poolammattilainen",
       description:
-        "s. 1987 Helsingissä. Poolammattilainen ja biljardivalmentaja vuodesta 2013, 8-pallon Suomen mestari 2018 ja edelleen kansainvälisillä kiertueilla.",
+        "s. 1987 Helsingissä. Poolammattilainen ja biljardivalmentaja vuodesta 2013, yli 20 SM-mitalia, 8-pallon Suomen mestari 2018 ja edelleen kansainvälisillä kiertueilla.",
       h1: "Jani Siekkinen",
     },
     results: {
       title: "Tulokset · Jani Siekkinen",
       description:
-        "SM-kulta 8-pallossa 2018, 10-pallon SM-hopea 2025, pari-SM-kultaa, ensimmäisen FPT-osakilpailun voitto ja US Open -pelit.",
+        "Yli 20 SM-mitalia, SM-kulta 8-pallossa 2018, 10-pallon SM-hopea 2025, pari-SM-kultaa, ensimmäisen FPT-osakilpailun voitto ja US Open -pelit.",
       h1: "Tulokset",
     },
     tips: {
@@ -432,7 +432,7 @@ export const fi = {
     kicker: "Pelaaja",
     p1: "Tulin pooliin aikuisena. Ensin maalivahdiksi, sitten cheerleadingin Euroopan mestariksi Funky Team Gorillazin kanssa. Sitten tämä pöytä vei mukanaan.",
     p2: "Syntynyt Helsingissä 19.4.1987. Poolammattilainen vuodesta 2013. Pelilajeina 8-pallo, 9-pallo, 10-pallo ja suora pallo. Vuodet pöydän ääressä näkyvät siinä, miten nopeasti toisen pelaajan virhe löytyy. Minua kutsutaan joskus Siegoksi. Se jää tähän.",
-    p3: "Kilpailen edelleen Euro Tourilla ja WNT:llä, ja olen pelannut US Openissa. Paras sija on lehdistön mukaan 33. Sama peli, jota valmennuksissa käydään läpi, on joka kausi itse koetuksella.",
+    p3: "Kilpailen edelleen Euro Tourilla ja WNT:llä, ja olen pelannut US Openissa. Paras sija on 33. Matkaan on kertynyt yli 20 SM-mitalia. Sama peli, jota valmennuksissa käydään läpi, on joka kausi itse koetuksella.",
     pressLabel: "Mediassa",
     press: [
       {
@@ -452,11 +452,12 @@ export const fi = {
   resultsIntro:
     "Nämä ovat tulokset, jotka voin kirjoittaa ilman keksittyjä mitaleita. Valmennus tulee pelaajalta, joka on itse edelleen kisassa.",
   results: [
+    { year: "20+", text: "SM-mitalia" },
     { year: "2018", text: "8-pallon Suomen mestari" },
     { year: "2025", text: "10-pallon SM-hopea" },
     { year: "2015, 2018", text: "Pari-SM-kultaa" },
     { year: "2015", text: "Ensimmäisen Finnish Pool Tour -osakilpailun voittaja" },
-    { year: "-", text: "US Openissa, paras sija lehdistön mukaan 33." },
+    { year: "-", text: "US Openissa, paras sija 33." },
   ],
   faqLabel: "Hyvä tietää",
   faqTitle: "Ennen ensimmäistä\nlyöntiä",

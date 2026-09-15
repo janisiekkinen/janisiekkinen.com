@@ -52,7 +52,7 @@ function body() {
   return [
     "# Jani Siekkinen",
     "",
-    "> Finnish professional pool player (8-ball national champion 2018, still competing on the Euro Tour and WNT).",
+    "> Finnish professional pool player (more than 20 Finnish championship medals, 8-ball national champion 2018, still competing on the Euro Tour and WNT).",
     "> Bookable for 1-to-1 and small-group pool coaching, beginner sessions, remote video analysis, corporate and",
     "> private exhibition events, cue repairs, GameOn jerseys and sponsorship partnerships. Based in Helsinki,",
     "> Finland; works across Finland and abroad by agreement.",
