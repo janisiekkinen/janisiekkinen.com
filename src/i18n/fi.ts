@@ -118,6 +118,7 @@ export const fi = {
   stats: [
     { k: "2018", v: "SM-kulta, 8-pallo" },
     { k: "2025", v: "SM-hopea, 10-pallo" },
+    { k: "20+", v: "SM-mitalia" },
     { k: "10+", v: "vuotta poolammattilaisena" },
   ],
   workLabel: "Mitä teen",

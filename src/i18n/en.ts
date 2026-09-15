@@ -118,6 +118,7 @@ export const en = {
   stats: [
     { k: "2018", v: "Finnish title, 8-ball" },
     { k: "2025", v: "Nationals silver, 10-ball" },
+    { k: "20+", v: "Finnish championship medals" },
     { k: "10+", v: "years as a full-time pro" },
   ],
   workLabel: "What I do",
