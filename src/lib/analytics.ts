@@ -10,6 +10,33 @@ declare global {
   }
 }
 
+const noticeListeners = new Set<() => void>();
+
+export function subscribeNotice(onStoreChange: () => void) {
+  noticeListeners.add(onStoreChange);
+  return () => {
+    noticeListeners.delete(onStoreChange);
+  };
+}
+
+export function noticeDismissed(): boolean {
+  if (typeof window === "undefined") return true;
+  try {
+    return localStorage.getItem(GA_NOTICE_KEY) === "1";
+  } catch {
+    return false;
+  }
+}
+
+export function dismissNotice() {
+  try {
+    localStorage.setItem(GA_NOTICE_KEY, "1");
+  } catch {
+    /* private mode */
+  }
+  noticeListeners.forEach((listener) => listener());
+}
+
 export function gaMeasurementId(): string {
   const id = site.gaMeasurementId.trim();
   return /^G-[A-Z0-9]+$/i.test(id) ? id : "";

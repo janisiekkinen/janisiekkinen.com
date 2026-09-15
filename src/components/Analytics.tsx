@@ -1,12 +1,19 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useSyncExternalStore } from "react";
 import Script from "next/script";
 import { usePathname } from "next/navigation";
 import type { Locale } from "../config/site";
 import { copy } from "../i18n";
 import { pathFor } from "../i18n/routes";
-import { GA_NOTICE_KEY, gaMeasurementId, trackEvent, trackPageView } from "../lib/analytics";
+import {
+  dismissNotice,
+  gaMeasurementId,
+  noticeDismissed,
+  subscribeNotice,
+  trackEvent,
+  trackPageView,
+} from "../lib/analytics";
 
 declare global {
   interface Window {
@@ -14,19 +21,11 @@ declare global {
   }
 }
 
-function noticeDismissed(): boolean {
-  try {
-    return localStorage.getItem(GA_NOTICE_KEY) === "1";
-  } catch {
-    return false;
-  }
-}
-
 export function Analytics({ locale }: { locale: Locale }) {
   const id = gaMeasurementId();
   const t = copy(locale);
   const pathname = usePathname();
-  const [showNotice, setShowNotice] = useState(() => !noticeDismissed());
+  const dismissed = useSyncExternalStore(subscribeNotice, noticeDismissed, () => true);
   const [scriptReady, setScriptReady] = useState(false);
 
   useEffect(() => {
@@ -52,15 +51,6 @@ export function Analytics({ locale }: { locale: Locale }) {
 
   if (!id) return null;
 
-  function dismissNotice() {
-    try {
-      localStorage.setItem(GA_NOTICE_KEY, "1");
-    } catch {
-      /* private mode */
-    }
-    setShowNotice(false);
-  }
-
   return (
     <>
       <Script id="ga4-init" strategy="afterInteractive">
@@ -81,9 +71,9 @@ export function Analytics({ locale }: { locale: Locale }) {
         strategy="afterInteractive"
         onLoad={() => setScriptReady(true)}
       />
-      {showNotice ? (
+      {!dismissed ? (
         <div
-          className="fixed inset-x-0 bottom-0 z-50 border-t border-ink/10 bg-rail px-5 py-5 md:px-10 lg:px-16"
+          className="pointer-events-auto fixed inset-x-0 bottom-0 isolate z-[100] border-t border-ink/10 bg-rail px-5 py-5 md:px-10 lg:px-16"
           role="dialog"
           aria-labelledby="cookie-title"
           aria-describedby="cookie-text"
@@ -104,7 +94,7 @@ export function Analytics({ locale }: { locale: Locale }) {
               <button type="button" className="btn-ghost min-h-12" onClick={dismissNotice}>
                 {t.cookie.decline}
               </button>
-              <button type="button" className="btn" onClick={dismissNotice}>
+              <button type="button" className="btn min-h-12" onClick={dismissNotice}>
                 {t.cookie.accept}
               </button>
             </div>
