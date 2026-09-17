@@ -350,9 +350,12 @@ a.cue:hover {
 }
 
 .scratch-ball-8 {
+  background: radial-gradient(circle at 32% 30%, #4a4a4a, #111 58%);
+}
+
+.scratch-felt:not([data-live]) .scratch-ball-8 {
   top: 28%;
   left: 58%;
-  background: radial-gradient(circle at 32% 30%, #4a4a4a, #111 58%);
 }
 
 .scratch-ball-8::after {
@@ -364,22 +367,26 @@ a.cue:hover {
 }
 
 .scratch-ball-brass {
-  top: 54%;
-  left: 48%;
   background: radial-gradient(circle at 32% 30%, #e4d2b0, var(--color-brass) 55%, #8a6d42 100%);
 }
 
+.scratch-felt:not([data-live]) .scratch-ball-brass {
+  top: 54%;
+  left: 48%;
+}
+
 .scratch-ball-ink {
+  background: radial-gradient(circle at 32% 30%, #8aa090, #3e5348 58%, #24352c 100%);
+}
+
+.scratch-felt:not([data-live]) .scratch-ball-ink {
   top: 38%;
   left: 68%;
-  background: radial-gradient(circle at 32% 30%, #8aa090, #3e5348 58%, #24352c 100%);
 }
 
 .scratch-ghost {
   position: absolute;
   z-index: 2;
-  top: 30%;
-  left: 14%;
   display: grid;
   width: 11%;
   aspect-ratio: 1;
@@ -392,6 +399,20 @@ a.cue:hover {
   font-weight: 600;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+}
+
+.scratch-felt:not([data-live]) .scratch-ghost {
+  top: 30%;
+  left: 14%;
+}
+
+.scratch-felt[data-live] .scratch-live {
+  top: 0;
+  left: 0;
+  width: auto;
+  aspect-ratio: auto;
+  pointer-events: none;
+  will-change: transform;
 }
 
 .scratch-cue {
