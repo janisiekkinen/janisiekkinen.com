@@ -73,28 +73,28 @@ export function Analytics({ locale }: { locale: Locale }) {
       />
       {!dismissed ? (
         <div
-          className="pointer-events-auto fixed inset-x-0 bottom-0 isolate z-[100] border-t border-ink/10 bg-rail px-5 py-5 md:px-10 lg:px-16"
+          className="pointer-events-auto fixed inset-x-0 bottom-0 isolate z-[100] border-t border-ink/10 bg-rail px-5 py-4 md:px-10 lg:px-16"
           role="dialog"
           aria-labelledby="cookie-title"
           aria-describedby="cookie-text"
         >
-          <div className="flex max-w-5xl flex-col gap-4 md:flex-row md:items-end md:justify-between md:gap-10">
-            <div>
+          <div className="flex w-full flex-col gap-4 md:flex-row md:items-center md:justify-between md:gap-10">
+            <div className="min-w-0 max-w-3xl">
               <p id="cookie-title" className="text-[0.7rem] font-medium uppercase tracking-[0.28em] text-brass">
                 {t.cookie.title}
               </p>
-              <p id="cookie-text" className="mt-3 max-w-xl text-sm leading-relaxed text-ink/88">
+              <p id="cookie-text" className="mt-2 text-sm leading-relaxed text-ink/88">
                 {t.cookie.text}{" "}
                 <a className="underline decoration-brass/50 underline-offset-4 hover:text-brass" href={pathFor("privacy", locale)}>
                   {t.privacy}
                 </a>
               </p>
             </div>
-            <div className="flex flex-wrap gap-3">
-              <button type="button" className="btn-ghost min-h-12" onClick={dismissNotice}>
+            <div className="flex shrink-0 items-center gap-3">
+              <button type="button" className="btn-quiet" onClick={dismissNotice}>
                 {t.cookie.decline}
               </button>
-              <button type="button" className="btn min-h-12" onClick={dismissNotice}>
+              <button type="button" className="btn" onClick={dismissNotice}>
                 {t.cookie.accept}
               </button>
             </div>

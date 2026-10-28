@@ -220,6 +220,28 @@ body::after {
   box-shadow: 0 10px 28px rgb(0 0 0 / 0.28);
 }
 
+.btn-quiet {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 3rem;
+  padding: 0.95rem 1.55rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-ink);
+  background: transparent;
+  border: 1px solid color-mix(in oklab, var(--color-ink) 28%, transparent);
+  transition: color 180ms ease, border-color 180ms ease;
+}
+
+.btn-quiet:hover {
+  color: var(--color-brass);
+  border-color: var(--color-brass);
+}
+
 .btn-ghost {
   display: inline-flex;
   align-items: center;
