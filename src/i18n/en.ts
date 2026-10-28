@@ -119,6 +119,7 @@ export const en = {
     { k: "2018", v: "Finnish title, 8-ball" },
     { k: "2025", v: "Nationals silver, 10-ball" },
     { k: "20+", v: "Finnish championship medals" },
+    { k: "+75", v: "podium finishes" },
     { k: "10+", v: "years as a full-time pro" },
   ],
   workLabel: "What I do",
@@ -407,6 +408,7 @@ export const en = {
     intro:
       "Partnering with me is visibility from the matches: tour, practice, social and the jersey. There is no ready-made package, because the job is built from the goal. Tell me what you want and what you bring. Then I'll say what it looks like.",
     partnersLabel: "Current partners",
+    credit: "Photo: T. Tainio",
     items: [
       {
         title: "Jerseys and the tour",
@@ -556,5 +558,6 @@ export const en = {
     tour: "Jani Siekkinen, Mezz logo and name across the back of the jersey",
     portrait: "Jani Siekkinen at the table, a trophy on the rail",
     hall: "Jani Siekkinen lining up a shot across the table in a billiard hall",
+    sponsor: "Jani Siekkinen lining up a shot in a playing jersey",
   },
 } as const;

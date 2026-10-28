@@ -177,6 +177,13 @@ body::after {
   height: 100%;
   width: 100%;
   object-fit: cover;
+  object-position: var(--mast-position, center 35%);
+}
+
+@media (min-width: 768px) {
+  .repairs-hero .mast-frame :is(img, picture, source) {
+    object-position: center 14%;
+  }
 }
 
 .mast-frame img {

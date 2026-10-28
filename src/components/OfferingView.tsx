@@ -16,6 +16,8 @@ export function OfferingView({
   items,
   showLocation = false,
   imagePosition,
+  frameClassName,
+  credit,
   children,
 }: {
   locale: Locale;
@@ -26,13 +28,24 @@ export function OfferingView({
   items: readonly { title: string; body: string }[];
   showLocation?: boolean;
   imagePosition?: string;
+  frameClassName?: string;
+  credit?: string;
   children?: ReactNode;
 }) {
   const t = copy(locale);
   const meta = pageMeta(locale, page);
   return (
     <>
-      <PageHead kicker={t.quote} title={meta.h1} lead={intro} image={image} alt={alt} imagePosition={imagePosition} />
+      <PageHead
+        kicker={t.quote}
+        title={meta.h1}
+        lead={intro}
+        image={image}
+        alt={alt}
+        imagePosition={imagePosition}
+        frameClassName={frameClassName}
+        credit={credit}
+      />
       {showLocation ? (
         <p className="px-5 pt-10 text-sm uppercase tracking-[0.18em] text-muted md:px-10 lg:px-16">{t.locationLine}</p>
       ) : null}

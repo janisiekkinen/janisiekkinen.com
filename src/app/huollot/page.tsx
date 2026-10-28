@@ -12,7 +12,16 @@ export const metadata = buildMetadata({ locale, page: "repairs" });
 export default function Page() {
   return (
     <SitePage locale={locale} page="repairs" overlay>
-      <OfferingView locale={locale} page="repairs" image={table} alt={t.alts.cue} intro={t.repairsPage.intro} items={t.repairsPage.items} imagePosition="center 72%" />
+      <OfferingView
+        locale={locale}
+        page="repairs"
+        image={table}
+        alt={t.alts.cue}
+        intro={t.repairsPage.intro}
+        items={t.repairsPage.items}
+        imagePosition="center 72%"
+        frameClassName="repairs-hero"
+      />
     </SitePage>
   );
 }

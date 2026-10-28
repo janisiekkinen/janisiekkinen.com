@@ -3,7 +3,7 @@ import { OfferingView } from "../../../components/OfferingView";
 import { SitePage } from "../../../components/SitePage";
 import { copy } from "../../../i18n";
 import { buildMetadata } from "../../../lib/metadata";
-import action from "../../../assets/images/break-shot.jpg";
+import action from "../../../assets/images/coaching.jpg";
 
 const locale = "en" as const;
 const t = copy(locale);
@@ -17,11 +17,11 @@ export default function Page() {
         locale={locale}
         page="coaching"
         image={action}
-        alt={t.alts.break}
+        alt={t.alts.hall}
         intro={t.coaching.intro}
         items={t.coaching.items}
         showLocation
-        imagePosition="32% 42%"
+        imagePosition="center 30%"
       >
         <Faq
           locale={locale}

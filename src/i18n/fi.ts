@@ -119,6 +119,7 @@ export const fi = {
     { k: "2018", v: "SM-kulta, 8-pallo" },
     { k: "2025", v: "SM-hopea, 10-pallo" },
     { k: "20+", v: "SM-mitalia" },
+    { k: "+75", v: "podium-paikkaa" },
     { k: "10+", v: "vuotta poolammattilaisena" },
   ],
   workLabel: "Mitä teen",
@@ -407,6 +408,7 @@ export const fi = {
     intro:
       "Yhteistyö kanssani on näkyvyyttä kisoista: kiertue, treenit, some ja pelipaidat. Valmista pakettia ei ole, koska homma rakennetaan tavoitteesta. Kerro, mitä haluat ja mitä sinulla on tarjota. Sitten ehdotan, miltä se näyttää.",
     partnersLabel: "Nykyiset kumppanit",
+    credit: "Kuva: T. Tainio",
     items: [
       {
         title: "Paidat ja kiertue",
@@ -556,5 +558,6 @@ export const fi = {
     tour: "Jani Siekkinen, Mezz-logo ja nimi pelipaidan selässä",
     portrait: "Jani Siekkinen pöydän ääressä, pokaali nurkassa",
     hall: "Jani Siekkinen tähtää pöydän yli biljardisalissa",
+    sponsor: "Jani Siekkinen tähtää pelipaidassa biljardipöydän yli",
   },
 } as const;
