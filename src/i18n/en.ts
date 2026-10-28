@@ -48,7 +48,7 @@ export const en = {
     events: {
       title: "Private events and corporate days · Jani Siekkinen",
       description:
-        "Staff days, wellbeing days, Christmas parties and client evenings in the capital region. Trick shots and clear guidance, so the whole group gets to play and succeed.",
+        "Staff days, wellbeing days, Christmas parties and client evenings in the capital region. Clear guidance, so the whole group gets to play and succeed. Trick shots when they suit the night.",
       h1: "Events",
     },
     repairs: {
@@ -60,7 +60,7 @@ export const en = {
     gameon: {
       title: "GameOn jerseys · Jani Siekkinen",
       description:
-        "GameOn jerseys for players, clubs and crews. Send size and quantity through the form and I'll come back with availability and price.",
+        "A custom GameOn jersey for one player or a whole team. Dry Tech stretches in every direction. Ask with size and quantity, and you get the price and the delivery time.",
       h1: "GameOn jerseys",
     },
     sponsor: {
@@ -291,11 +291,11 @@ export const en = {
   },
   eventsPage: {
     intro:
-      "A staff day, a wellbeing day, a Christmas party or a client evening. The night is built in detail around your group. Trick shots you won't see in every billiard hall. Clear guidance for the whole group, so everyone gets to play and succeed. The venue can be yours, or we find a billiard hall.",
+      "A staff day, a wellbeing day, a Christmas party or a client evening. The night is built in detail around your group. Clear guidance for the whole group, so everyone gets to play and succeed. Trick shots can be part of it, when they suit the night. The venue can be yours, or we find a billiard hall.",
     items: [
       {
         title: "Private events",
-        body: "A dinner, a birthday, a stag or hen party, or a special event for key clients. Trick shots you won't see in every billiard hall. Clear guidance, and then everyone gets to play and succeed themselves.",
+        body: "A dinner, a birthday, a stag or hen party, or a special event for key clients. Clear guidance, and then everyone gets to play and succeed themselves. Trick shots can be part of it, when they suit the night.",
       },
       {
         title: "Corporate days",
@@ -309,78 +309,72 @@ export const en = {
     faqLabel: "Jani answers",
     faqTitle: "What an event\nactually is",
     faqIntro:
-      "Trick shots, clear guidance, then cues in hand. The night is built around your group. The sport is serious, the mood is not.",
+      "Clear guidance, then cues in hand. Trick shots come in when they suit the night. The night is built around your group. The sport is serious, the mood is not.",
     faq: [
       {
         q: "Why pool?",
         a: [
-          "Because it works for a room that is not the same.",
-          "A company night always has people who play everything and people who have never held a cue. A run splits the group. An escape room splits it. In pool you can do well without being the biggest or the fastest. That is the point.",
-          "And unlike a lot of “team days”, there is no round of introductions. Cue in hand, ball in the pocket, then you laugh at the person who tries too hard. It is a shared thing without having to name it that.",
+          "Because the same night works for the whole group.",
+          "Pool suits everyone. Some people have played for years, or they are holding a cue for the first time. The guidance is clear, so nobody is left watching. You do not need to be the biggest or the fastest. It is enough to want a go.",
         ],
       },
       {
         q: "What happens on the night?",
         a: [
-          "We open with trick shots you won't see in every billiard hall. That starts the night.",
-          "Then clear guidance: the fundamentals, the rules and enough of the stroke that the game moves. The whole group gets to the table, including the people who came just to watch.",
-          "The rest of the evening we play. I am there: I correct, I show, I keep the rhythm.",
+          "The night is built around your group. If trick shots are part of it, they get the night going and the group sees straight away what the table can do.",
+          "Clear guidance for the whole group: first the fundamentals, then the rules and the stroke. The people who came just to watch get to the table too.",
+          "The rest of the evening we play. I stay with you, show, correct and keep the rhythm, so everyone gets to succeed.",
         ],
       },
       {
         q: "What if nobody has played?",
         a: [
-          "That is when this is at its best.",
-          "I have seen it enough: the people who can play go off on their own and the rest are left watching. That is why the night is built this way. Trick shots, guidance, play. Skill is not assumed. The group wants to do something together.",
-          "A first-timer gets to succeed too. That is the measure of the night.",
+          "That is when the night is at its best. Nothing is required in advance.",
+          "The guidance is unhurried, and then we play. If trick shots are part of the night, they show the way. A first-timer gets to succeed too. That is the aim of the night.",
         ],
       },
       {
         q: "Isn't a table enough?",
         a: [
-          "A table without a programme is furniture.",
-          "Then the night becomes three people who can play and everyone else circling with a glass. That is not an event. That is a break.",
-          "A professional in the billiard hall holds the night together: shows, splits the tables, gets the shy one to hit, and can play the trick shot people took their phones out for.",
+          "A table on its own is not yet an event. Without guidance, the people who can play take over and everyone else stays standing.",
+          "I hold the night together. I split the tables, give clear guidance and get the shy one to hit. I show trick shots when they belong in the night.",
         ],
       },
       {
-        q: "Tricks or a lesson?",
+        q: "Tricks, a lesson, or both?",
         a: [
-          "Both. In that order.",
-          "Trick shots on their own are watching. A lesson on its own is an hour. An event is seeing shots you won't see in every billiard hall, and then trying them yourself.",
-          "Nobody goes home thinking they should have been allowed a go. The go is in the programme.",
+          "It can be both, or just one.",
+          "Trick shots you won't see in every billiard hall, when they suit the night. A lesson and a go at the table, when the group wants to try it themselves.",
         ],
       },
       {
         q: "What this is not?",
         a: [
-          "It is not a compulsory team day where you invent values together.",
-          "It is also not me playing all night while you clap. I show, I explain, then you hit.",
-          "And it is not a contest where the loser looks small. The sport is serious, the mood is not.",
+          "It is not a lecture, and it is not a compulsory item on the agenda.",
+          "I do not play the whole night while you clap. I show, I explain, then you play. Nobody is left feeling foolish. The sport is serious, the mood is not.",
         ],
       },
       {
         q: "Where is it held?",
         a: [
-          "The venue can be yours, or we find a suitable billiard hall. Tables are needed. The rest is on me.",
-          "Regularly in the capital region, elsewhere in Finland and abroad by agreement. Put the venue, headcount and date on the form. Then you get a quote, not a guess.",
+          "Anywhere in the capital region, and elsewhere in Finland and abroad by agreement.",
+          "The venue can be yours. If you do not have one, I find a billiard hall and you get a quote straight away. Send the headcount, the date and the venue, if you already have one, through the form.",
         ],
       },
       {
         q: "Schools and birthdays?",
         a: [
-          "Same logic, different tone.",
           "For schools and young people this suits everyone. Not a lecture, but something that pulls them in: first the fundamentals, then the rules and the stroke, then we play.",
-          "At a private night the trick shots are scaled to the room: a dinner, a birthday, a stag or hen party, a group that wants to see the shots. Then everyone gets to try the same one.",
-          "For a company it is a day out that does not feel like a compulsory item on the agenda.",
+          "A private night can be a dinner, a birthday or a stag or hen party. Trick shots can be scaled to the room when they belong in the night, and then everyone gets to play.",
+          "For a company the same night is a staff day, a wellbeing day, a kickoff or a client evening, built around your group.",
         ],
       },
       {
         q: "How do you know it worked?",
         a: [
-          "When there are no spectators left.",
-          "When someone who never plays asks for one more game.",
-          "And when the next week people talk about that shot, not about how it was “quite nice”. Nice is forgotten. That shot is not.",
+          "When nobody is left watching.",
+          "When a first-timer asks for one more game.",
+          "And when the next week people are still talking about the shot that came off.",
         ],
       },
     ],
@@ -401,11 +395,11 @@ export const en = {
   },
   gameonPage: {
     intro:
-      "GameOn jerseys are built for playing. Sizes and stock move, so there is no webshop. Send size and quantity through the form and I'll come back with availability and price.",
+      "A jersey can be made for one player, or as the team's own. The fabric is Dry Tech. It stretches in every direction and feels exceptionally good in play. On a team order too, every shirt can be its own custom piece, logos included. At the end there is one price, and nothing extra on top of it.",
     items: [
       {
         title: "Order",
-        body: "Tell me the size, the quantity and where the jerseys are going: your own game, a club or a crew. I'll come back with price and delivery. No prices on the page until they are locked.",
+        body: "The form needs the size, the quantity and who the shirts are for. I'll come back with a quote that has the price and the delivery time. Sizes and stock change, so they are not kept up to date on the page.",
       },
     ],
   },
@@ -430,6 +424,7 @@ export const en = {
   },
   jani: {
     kicker: "Player",
+    credit: "Photo: Juha Pekkarinen",
     p1: "I started playing billiards at 16. I have also been a goalkeeper, won a European cheerleading title with Funky Team Gorillaz, and won skateboarding competitions.",
     p2: "Born in Helsinki in 1987. Full-time pool professional since 2013. The games are 8-ball, 9-ball, 10-ball and straight pool. What several sports and elite sport have taught me shows in how quickly another player's mistake becomes visible, and in how the game looks under pressure. My nickname is Siego. If you ever hear it, that's me.",
     p3: "I compete on the European tour and the WNT, and in Finland too. More than 20 Finnish championship medals along the way. In coaching, that same whole is tested every season, by me: the game, the mental side, and what the other sports have taught.",
@@ -560,5 +555,6 @@ export const en = {
     jersey: "Jani Siekkinen in the Finland jersey at the Belgian Open",
     tour: "Jani Siekkinen, Mezz logo and name across the back of the jersey",
     portrait: "Jani Siekkinen at the table, a trophy on the rail",
+    hall: "Jani Siekkinen lining up a shot across the table in a billiard hall",
   },
 } as const;

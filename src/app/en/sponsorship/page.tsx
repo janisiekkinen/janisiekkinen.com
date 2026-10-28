@@ -3,7 +3,7 @@ import { OfferingView } from "../../../components/OfferingView";
 import { SitePage } from "../../../components/SitePage";
 import { copy } from "../../../i18n";
 import { buildMetadata } from "../../../lib/metadata";
-import tour from "../../../assets/images/tour.jpg";
+import hands from "../../../assets/images/hands-cue.jpg";
 
 const locale = "en" as const;
 const t = copy(locale);
@@ -16,11 +16,11 @@ export default function Page() {
       <OfferingView
         locale={locale}
         page="sponsor"
-        image={tour}
-        alt={t.alts.tour}
+        image={hands}
+        alt={t.alts.hands}
         intro={t.sponsorPage.intro}
         items={t.sponsorPage.items}
-        imagePosition="center 52%"
+        imagePosition="center 46%"
       >
         <CurrentPartners label={t.sponsorPage.partnersLabel} />
       </OfferingView>

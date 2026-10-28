@@ -9,6 +9,7 @@ export function PageHead({
   alt = "",
   imagePosition = "center 35%",
   layout = "cover",
+  credit,
 }: {
   kicker?: string;
   title: string;
@@ -17,6 +18,7 @@ export function PageHead({
   alt?: string;
   imagePosition?: string;
   layout?: "cover" | "portrait";
+  credit?: string;
 }) {
   if (image && layout === "portrait") {
     return (
@@ -72,6 +74,7 @@ export function PageHead({
           {title}
         </h1>
         {lead ? <p className="mt-6 max-w-xl text-base leading-relaxed text-ink/88 md:text-lg">{lead}</p> : null}
+        {credit ? <p className="mt-8 text-[0.65rem] uppercase tracking-[0.18em] text-white/70">{credit}</p> : null}
       </div>
     </header>
   );

@@ -48,7 +48,7 @@ export const fi = {
     events: {
       title: "Yksityistilaisuudet ja yritystapahtumat · Jani Siekkinen",
       description:
-        "TyKy, TyHy, pikkujoulut ja asiakasillat pääkaupunkiseudulla. Temppulyöntejä ja selkeät ohjeet, jotta koko porukka pääsee pelaamaan ja onnistumaan.",
+        "TyKy, TyHy, pikkujoulut ja asiakasillat pääkaupunkiseudulla. Selkeät ohjeet, jotta koko porukka pääsee pelaamaan ja onnistumaan. Temppulyöntejä silloin, kun ne sopivat iltaan.",
       h1: "Tilaisuudet",
     },
     repairs: {
@@ -60,7 +60,7 @@ export const fi = {
     gameon: {
       title: "GameOn-pelipaidat · Jani Siekkinen",
       description:
-        "GameOn-pelipaidat pelaajille, seuroille ja porukoille. Kerro koko ja määrä lomakkeella, palaan saatavuuden ja hinnan kanssa.",
+        "Kustomoitu GameOn-pelipaita yhdelle pelaajalle tai koko joukkueelle. Dry Tech venyy moneen suuntaan. Kysy koko ja määrä, niin saat hinnan ja toimitusajan.",
       h1: "GameOn-pelipaidat",
     },
     sponsor: {
@@ -291,11 +291,11 @@ export const fi = {
   },
   eventsPage: {
     intro:
-      "TyKy, TyHy, pikkujoulut tai asiakasilta. Ilta rakennetaan perusteellisesti teidän porukkanne mukaan. Temppulyöntejä, joita ei näe ihan joka biljardisalilla. Selkeät ohjeet koko porukalle, jotta kaikki pääsevät pelaamaan ja onnistumaan. Paikka voi olla teidän, tai etsitään biljardisali.",
+      "TyKy, TyHy, pikkujoulut tai asiakasilta. Ilta rakennetaan perusteellisesti teidän porukkanne mukaan. Selkeät ohjeet koko porukalle, jotta kaikki pääsevät pelaamaan ja onnistumaan. Temppulyöntejä voi olla mukana, jos ne sopivat iltaan. Paikka voi olla teidän, tai etsitään biljardisali.",
     items: [
       {
         title: "Yksityistilaisuudet",
-        body: "Illallinen, synttärit, polttarit tai avainasiakkaille erikoistapahtuma. Temppulyöntejä, joita ei näe ihan joka biljardisalilla. Selkeät ohjeet, ja sen jälkeen jokainen pääsee itse pelaamaan ja onnistumaan.",
+        body: "Illallinen, synttärit, polttarit tai avainasiakkaille erikoistapahtuma. Selkeät ohjeet, ja sen jälkeen jokainen pääsee itse pelaamaan ja onnistumaan. Temppulyöntejä voi olla mukana, jos ne sopivat iltaan.",
       },
       {
         title: "Yritystapahtumat",
@@ -309,78 +309,72 @@ export const fi = {
     faqLabel: "Jani vastaa",
     faqTitle: "Mitä tilaisuus\noikeasti on",
     faqIntro:
-      "Temppulyönnit, selkeät ohjeet, sitten kepit käteen. Ilta rakennetaan teidän porukkanne mukaan. Laji on vakava, meininki ei ole.",
+      "Selkeät ohjeet, sitten kepit käteen. Temppulyönnit tulevat mukaan silloin, kun ne sopivat iltaan. Ilta rakennetaan teidän porukkanne mukaan. Laji on vakava, meininki ei ole.",
     faq: [
       {
         q: "Miksi juuri biljardi?",
         a: [
-          "Koska se toimii porukalle, joka ei ole samanlainen.",
-          "Firman illassa on aina niitä, jotka pelaavat kaiken, ja niitä, jotka eivät ole pitäneet keppiä kädessä. Juoksulenkki jakaa porukan. Escape room jakaa. Biljardissa pärjää ilman että pitää olla isoin tai nopein. Siinä on koko juttu.",
-          "Ja toisin kuin moni “tiimipäivä”, tässä ei tarvita esittäytymiskierrosta. Keppi käteen, pallo taskuun, sitten nauretaan sille, joka yrittää liikaa. Se on yhteinen juttu ilman että sitä pitää nimetä sellaiseksi.",
+          "Koska sama ilta toimii koko porukalle.",
+          "Biljardi sopii kaikille. Mukana on niitä, jotka ovat pelanneet vuosia, tai niitä, jotka ottavat kepin käteen ensimmäistä kertaa. Ohjeet ovat selvät, joten kukaan ei jää katsomaan. Ei tarvitse olla isoin tai nopein. Riittää, että haluaa yrittää.",
         ],
       },
       {
         q: "Mitä illassa tapahtuu?",
         a: [
-          "Aloitetaan temppulyönneillä, joita ei näe ihan joka biljardisalilla. Se avaa illan.",
-          "Sitten selkeät ohjeet: perusteet, säännöt ja lyöntitekniikka sen verran, että peli kulkee. Koko porukka pääsee pöydän ääreen, myös ne, jotka tulivat vain katsomaan.",
-          "Loppuilta pelataan. Olen siinä, korjaan, näytän ja pidän rytmin.",
+          "Ilta rakennetaan teidän porukkanne mukaan. Jos temppulyönnit ovat mukana, niistä ilta lähtee käyntiin ja porukka näkee heti, mitä kaikkea pöydällä voi tehdä.",
+          "Selkeät ohjeet koko porukalle: ensin perusteet, sitten säännöt ja lyöntitekniikka. Myös ne, jotka tulivat vain katsomaan, pääsevät pöydän ääreen.",
+          "Loppuilta pelataan. Olen mukana, näytän, korjaan ja pidän rytmin, jotta kaikki pääsevät onnistumaan.",
         ],
       },
       {
         q: "Entä jos kukaan ei ole pelannut?",
         a: [
-          "Silloin tämä on parhaimmillaan.",
-          "Olen nähnyt sen tarpeeksi: osaava porukka menee omilleen ja muut jäävät katsomaan. Siksi ilta rakennetaan näin. Temppulyönnit, ohjeet, peli. Taitoa ei oleteta. Porukka haluaa tehdä jotain yhdessä.",
-          "Ensikertalainenkin pääsee onnistumaan. Se on illan mitta.",
+          "Silloin ilta on parhaimmillaan. Mitään ei tarvitse osata etukäteen.",
+          "Ohjeet käydään rauhassa, ja sitten pelataan. Jos temppulyönnit ovat mukana, ne näyttävät suuntaa. Ensikertalainenkin pääsee onnistumaan. Se on illan päämäärä.",
         ],
       },
       {
         q: "Eikö pelkkä pöytä riitä?",
         a: [
-          "Pöytä ilman ohjelmaa on kaluste.",
-          "Silloin illasta tulee se, että kolme kaveria osaa ja loput kiertävät lasin kanssa. Se ei ole tilaisuus. Se on tauko.",
-          "Ammattilainen biljardisalilla pitää illan kasassa: näyttää, jakaa pöydät, saa ujonkin lyömään, ja osaa sen temppulyönnin, jota varten porukka otti puhelimen esiin.",
+          "Pöytä yksin ei vielä tee tilaisuutta. Ilman ohjeita osaava porukka pelaa ja muut jäävät seisomaan.",
+          "Minä pidän illan kasassa. Jaan pöydät, annan selkeät ohjeet ja saan ujonkin lyömään. Temppulyönnit näytän silloin, kun ne kuuluvat iltaan.",
         ],
       },
       {
-        q: "Temppuja vai opetusta?",
+        q: "Temppuja, opetusta tai molempia?",
         a: [
-          "Molempia. Tässä järjestyksessä.",
-          "Pelkät temppulyönnit ovat katsomista. Pelkkä opetus on tunti. Tilaisuudessa nähdään lyöntejä, joita ei näe ihan joka biljardisalilla, ja sitten yritetään itse.",
-          "Kukaan ei lähde kotiin miettimään, että olisi pitänyt päästä kokeilemaan. Kokeilu on ohjelmassa.",
+          "Voi olla molempia, tai vain toista.",
+          "Temppulyöntejä, joita ei näe ihan joka biljardisalilla, silloin kun ne sopivat iltaan. Opetusta ja omaa pelaamista silloin, kun porukka haluaa kokeilla itse.",
         ],
       },
       {
         q: "Mitä tilaisuus ei ole?",
         a: [
-          "Se ei ole pakollinen tiimipäivä, jossa keksitään yhdessä arvoja.",
-          "Se ei ole myöskään se, että minä lyön koko illan ja te taputatte. Näytän, selitän, sitten te lyötte.",
-          "Eikä se ole kisa, jossa häviäjä jää noloksi. Laji on vakava, meininki ei ole.",
+          "Se ei ole luento eikä pakollinen ohjelmanumero.",
+          "Minä en lyö koko iltaa teidän taputtaessa. Näytän, selitän, sitten te pelaatte. Kukaan ei jää noloksi. Laji on vakava, meininki ei ole.",
         ],
       },
       {
         q: "Missä tämä pidetään?",
         a: [
-          "Paikka voi olla teidän tai etsitään sopiva biljardisali. Pöydät tarvitaan. Muusta huolehdin minä.",
-          "Pääkaupunkiseudulla säännöllisesti, muualla Suomessa ja ulkomailla sopimuksen mukaan. Kerro lomakkeella paikka, osallistujamäärä ja ajankohta. Sitten tehdään tarjous, ei arvailua.",
+          "Pääkaupunkiseudulla missä vain, muualla Suomessa ja ulkomailla sopimuksen mukaan.",
+          "Paikka voi olla teidän. Jos sitä ei ole, etsin sopivan biljardisalin, ja saat tarjouksen saman tien. Kerro lomakkeella osallistujamäärä, ajankohta ja paikka, jos se on jo mielessä.",
         ],
       },
       {
         q: "Entä koulut ja synttärit?",
         a: [
-          "Sama logiikka, eri sävy.",
           "Kouluille ja nuorille tämä sopii kaikille. Ei luentoa, vaan innostavaa tekemistä: ensin perusteet, sitten säännöt ja lyöntitekniikat, sitten pelataan.",
-          "Yksityisessä illassa temppulyönnit sovitetaan tilaan: illallinen, synttärit, polttarit, porukka, joka haluaa nähdä lyöntejä. Sitten jokainen pääsee yrittämään samaa.",
-          "Yritykselle se on virkistystä, joka ei tunnu pakolliselta ohjelmanumerolta.",
+          "Yksityiseen iltaan kuuluvat illallinen, synttärit ja polttarit. Temppulyönnit voidaan sovittaa tilaan, jos ne kuuluvat iltaan, ja sen jälkeen jokainen pääsee pelaamaan.",
+          "Yritykselle sama ilta on TyKy, TyHy, kickoff tai asiakasilta, rakennettuna teidän porukkanne mukaan.",
         ],
       },
       {
         q: "Mistä tietää, että ilta toimi?",
         a: [
-          "Silloin kun sivustakatsojia ei jää.",
-          "Silloin kun joku, joka ei ikinä pelaa, pyytää vielä yhden pelin.",
-          "Ja silloin kun seuraavana viikkona puhutaan siitä lyönnistä, ei siitä, että “oli ihan kivaa”. Kiva unohtuu. Se lyönti ei unohdu.",
+          "Silloin kun kukaan ei jää katsomaan.",
+          "Silloin kun ensikertalainen pyytää vielä yhden pelin.",
+          "Ja silloin kun seuraavalla viikolla puhutaan siitä lyönnistä, joka onnistui.",
         ],
       },
     ],
@@ -401,11 +395,11 @@ export const fi = {
   },
   gameonPage: {
     intro:
-      "GameOn-paidat on tehty pelaamiseen. Koot ja saatavuus vaihtelevat, joten verkkokauppaa ei ole. Kerro koko ja määrä lomakkeella, niin palaan saatavuuden ja hinnan kanssa.",
+      "Pelipaita voidaan tehdä yhdelle pelaajalle tai koko joukkueelle omaksi. Kangas on Dry Techiä: se venyy moneen suuntaan ja tuntuu pelissä poikkeuksellisen miellyttävältä. Joukkueessakin jokainen paita voi olla oma kustominsa, logot mukaan lukien. Lopussa on yksi hinta, eikä yllätyksiä tule.",
     items: [
       {
         title: "Tilaus",
-        body: "Kerro koko, määrä ja mihin paidat tulevat: omaan peliin, seuralle vai porukalle. Palaan hinnan ja toimitusajan kanssa. Hintoja ei ole sivulla, ennen kuin ne on päätetty.",
+        body: "Lomakkeelle riittää koko, määrä ja se, kenelle paidat tulevat. Palaan tarjouksella, jossa on hinta ja toimitusaika. Koot ja saatavuus vaihtuvat, joten niitä ei pidetä sivulla ajan tasalla.",
       },
     ],
   },
@@ -430,6 +424,7 @@ export const fi = {
   },
   jani: {
     kicker: "Pelaaja",
+    credit: "Kuva: Juha Pekkarinen",
     p1: "Aloitin biljardin 16-vuotiaana. Olen ollut maalivahti, voittanut cheerleadingin Euroopan mestaruuden Funky Team Gorillazin kanssa ja skeittikilpailuja.",
     p2: "Syntynyt Helsingissä 1987. Poolammattilainen vuodesta 2013. Pelilajeina 8-pallo, 9-pallo, 10-pallo ja Straight pool. Monesta lajista ja huippu-urheilusta kertynyt tietämys näkyy siinä, miten nopeasti toisen pelaajan virhe löytyy ja miltä peli näyttää paineessa. Lempinimeni on Siego. Jos kuulet sen joskus, se olen minä.",
     p3: "Kilpailen Euroopan kiertueella ja WNT:llä, ja tietysti Suomessa. Matkaan on kertynyt yli 20 SM-mitalia. Valmennuksessa sama kokonaisuus on joka kausi itse koetuksella: peli, henkinen puoli ja se, mitä muut lajit ovat opettaneet.",
@@ -560,5 +555,6 @@ export const fi = {
     jersey: "Jani Siekkinen Suomen pelipaidassa Belgian Openissa",
     tour: "Jani Siekkinen, Mezz-logo ja nimi pelipaidan selässä",
     portrait: "Jani Siekkinen pöydän ääressä, pokaali nurkassa",
+    hall: "Jani Siekkinen tähtää pöydän yli biljardisalissa",
   },
 } as const;
