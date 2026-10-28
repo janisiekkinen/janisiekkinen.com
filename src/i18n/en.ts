@@ -31,7 +31,7 @@ export const en = {
   email: "Email",
   phone: "Phone",
   whatsapp: "WhatsApp",
-  locationLine: "Regularly in the Helsinki region, elsewhere in Finland and abroad by agreement.",
+  locationLine: "Regularly in the capital region, elsewhere in Finland and abroad by agreement.",
   meta: {
     home: {
       title: "Pool coaching Helsinki · Jani Siekkinen",
@@ -48,13 +48,13 @@ export const en = {
     events: {
       title: "Private events and corporate days · Jani Siekkinen",
       description:
-        "Christmas parties, kickoffs and staff days in Helsinki: exhibition shots, guided play and a night that works for first-timers. Why pool, and what the evening actually is.",
+        "Staff days, wellbeing days, Christmas parties and client evenings in the capital region. Trick shots and clear guidance, so the whole group gets to play and succeed.",
       h1: "Events",
     },
     repairs: {
       title: "Cue repairs · Jani Siekkinen",
       description:
-        "Tip, ferrule and shaft put right. Tell me what happened to the cue and you get an estimate of the work and the timeline.",
+        "Tip, ferrule, grip and a clean. Tell me what the cue needs and you get an estimate of the work and the timeline before anything is touched.",
       h1: "Repairs",
     },
     gameon: {
@@ -110,8 +110,8 @@ export const en = {
     kicker: "Professional pool player",
     first: "Jani",
     last: "Siekkinen",
-    proof: "Finnish 8-ball champion, 2018. Still competing internationally.",
-    lead: "I have played pool for a living since 2013. I coach, run events and service cues at the same standard I compete at.",
+    proof: "Multiple-time Finnish champion and European champion.\nWorld Nineball Tour pro.",
+    lead: "I have played pool for a living since 2013. I coach, perform at events and service cues with the same care I compete with.",
     cta: "Get in touch",
     alt: "Jani Siekkinen lining up a shot on tour",
   },
@@ -122,48 +122,48 @@ export const en = {
     { k: "10+", v: "years as a full-time pro" },
   ],
   workLabel: "What I do",
-  pitchLabel: "Why this",
-  pitchTitle: "Fundamentals first.\nThen the game.",
+  pitchLabel: "Why me",
+  pitchTitle: "Fundamentals first.\nThen confidence.",
   pitchBody:
-    "I don't sell a course or a ready-made package. I watch you play first. Then we fix the stroke, the tempo and the decisions: the things that break when the match tightens.",
+    "I don't sell a course or a ready-made package. I look first at what needs work. Then we fix what has to change, so your stroke is reliable and you have the skills you need when the match gets tense.",
   pitchPoints: [
     {
       k: "1-to-1",
-      v: "One player, one table, the whole session built around you. The content follows what your own game shows. Not a general lecture.",
+      v: "One player, one table, the whole session for you. The content is always built around the client, not from a ready-made course.",
     },
     {
       k: "Shows",
-      v: "Christmas parties, kickoffs and private nights. Shots you don't see in every hall, plus enough guidance that everyone in the room gets to play themselves.",
+      v: "A staff day, a wellbeing day, or something else the team does together. Christmas parties, kickoffs, or a special event for key clients. Trick shots you won't see in every pool hall. Clear guidance for the whole group, so everyone gets to play and succeed.",
     },
     {
       k: "Sponsor",
-      v: "Tour, social and jerseys. Your mark travels to where the matches are. The pictures come from the events, not from stock photos.",
+      v: "A company, a private person, or anyone else can come in as a sponsor. Visibility on the tour, on social media and on the jersey. The partnership is agreed together, around what you want from it.",
     },
     {
-      k: "Helsinki",
-      v: "Regularly in the Helsinki region, elsewhere in Finland and abroad by agreement. I can also come to your tables.",
+      k: "Uusimaa",
+      v: "Regularly across Uusimaa, elsewhere in Finland and abroad by agreement. I can also come to your tables.",
     },
   ],
   leads: {
     coaching: {
       title: "Coaching",
-      body: "A private session or a small group. We work through stroke, tempo and decisions and fix what breaks when the match tightens. After the hour you know what to practise next.",
+      body: "A private session or a small group. We go through, in detail, what the game is made of. A complete package shaped around what you need. Answers across every part of the game.",
     },
     events: {
       title: "Events",
-      body: "Private nights, Christmas parties and company days. Exhibition shots first, then cues in your guests' hands. Including the people who have never played.",
+      body: "A staff day, a Christmas party or a client evening. The night is built in detail around your group. A complete package shaped around what you need. Clear guidance for the whole group, so everyone gets to play and succeed.",
     },
     repairs: {
       title: "Repairs",
-      body: "Tip, ferrule and shaft put right so the cue feels like yours again. Tell me what happened and you get an estimate of the work and the timeline before anything is touched.",
+      body: "Tip, ferrule, grip and a clean. Whatever the cue needs, tell me, and you get an estimate of the work and the timeline before anything is touched.",
     },
     gameon: {
       title: "GameOn",
-      body: "Jerseys for your own game, your club or your crew. Sizes and stock move, so send size and quantity through the form and I'll come back with price and delivery.",
+      body: "A jersey for yourself, or your own for the whole team. New-generation Dry Tech: a fabric that stretches in every direction and feels exceptionally good. Every shirt is made custom. Sizes and stock move, so send size and quantity through the form and I'll come back with price and delivery.",
     },
     sponsor: {
       title: "Partners",
-      body: "Tour, social and jerseys. The visibility comes from the matches. Say what you want and what you bring. Then I'll say what it looks like.",
+      body: "A company, a private person, or anyone else can come in and support. Visibility on the tour, on social media and on the jersey. The partnership is agreed together, around what you want from it.",
     },
   },
   services: {
@@ -183,40 +183,40 @@ export const en = {
   } satisfies Record<ServiceId, string>,
   coaching: {
     intro:
-      "I coach in Helsinki at the same table I compete on. No ready-made package: first we find where your game leaks. Then we rebuild it and repeat it until the fix holds under pressure too.",
+      "A private session or a small group. We start by finding your level, and nothing is required in advance. We go through, in detail, what the game is made of. A complete package shaped around what you need.",
     items: [
       {
         title: "Private 1-to-1",
-        body: "One player and my full attention. We go through stance, stroke and cue-ball control, but also the decisions: what you play when the easy pattern runs out. The content follows what your match shows, not a lesson plan written in advance.",
+        body: "One player, one table, the whole session for you. The content is always built around the client, not from a ready-made course. You get answers across every part of the game.",
       },
       {
         title: "Small group 2–4",
-        body: "One shared language for the whole group and more reps per table. It suits a group of friends or club players who want the same correction at the same time and can keep coaching each other afterwards.",
+        body: "A small group, the same session for everyone. We go through, in detail, what the game is made of, and build the package around what you need.",
       },
       {
         title: "Fundamentals",
-        body: "Grip, stance, aim and cue-ball control in an order that actually works. We start from zero without tournament jargon, and after the first session you have a routine you can practise alone.",
+        body: "A beginner is welcome, and nothing is required in advance. We find the starting level and build the session from there.",
       },
       {
         title: "House calls and travel",
-        body: "In the Helsinki region I can come to your tables, and elsewhere in Finland by agreement. Longer trips and travel abroad can be arranged when the schedule and the whole package make sense.",
+        body: "Anywhere in the capital region, and elsewhere in Finland and abroad by agreement. We play at a billiard hall you know, or I come to your tables.",
       },
       {
         title: "Video analysis",
-        body: "Film your shots on a phone and send the clips online. You get specific corrections and drills in priority order: not a general lecture, but the work that raises your level fastest.",
+        body: "You film your shots on a phone and send the clips. I send back the corrections and drills in priority order. It works well outside the capital region too.",
       },
     ],
     faqLabel: "Jani answers",
     faqTitle: "What coaching\nactually is",
     faqIntro:
-      "In coaching I pass on what I have already paid for in time, travel and mistakes. Fundamentals first, then the game, and the head comes with it. The sport is serious, the mood is not.",
+      "I pass on what I have worked out myself, through hard work, money, and blood, sweat and tears. Fundamentals first, then the game, and the head comes with it. The sport is serious, the mood is not.",
     faq: [
       {
         q: "Why a professional?",
         a: [
           "You can learn by playing. That way you also pick up ten bad habits that feel like yours, because you have repeated them thousands of times.",
-          "In pool the gaps are made in small things. Stance, grip, tempo, how the stroke feels when it is right. If nobody watches from the side, you correct the wrong thing. I have seen it in my own game and in the hall: a player puts in the hours, and the same miss keeps coming back, because the foundation is not there.",
-          "Professional coaching is not a trick school. It is someone who has put balls in for years showing you where your game actually leaks. You save time. And time is the expensive part of this sport.",
+          "In pool the gaps are made in small things. Stance, grip, tempo, how the stroke feels when it is right. If nobody watches from the side, the correction easily lands beside the real thing. I have seen it in my own game and in the billiard hall: the hours add up, and the same spot comes back while the foundation is not yet in place.",
+          "We go through, in detail, what your game is made of. I look first at what needs to develop, and we fix that, so the stroke has confidence when the game gets tight. That saves time, because the hours stop going into the wrong thing.",
         ],
       },
       {
@@ -224,7 +224,7 @@ export const en = {
         a: [
           "First we look at where you start. One person has years of play, another is holding a cue for the first time. The same programme does not work for both.",
           "We go through the basics: grip, stance, aim, the rhythm of the stroke. Then drills you can take into your own practice. The point is not that I stand next to you and you look good for an hour. The point is that next time you know what to practise, and why.",
-          "If you come as a group, we learn the rules, the etiquette and enough technique that the game starts to move. Then we play. If you come alone to raise your level, we go closer: where the cue ball stops, why it stopped there, what the options were, and how the head felt when the decision had to be made.",
+          "If you come as a group, we learn the rules, the etiquette and enough technique that the game starts to move. Then we play. If you come alone to develop your game, we go further. We look at where the cue ball finishes and why it stopped there. Then we go through the other options, and how it felt when the decision had to be made.",
           "One hour does not make a champion. One hour can still cut the loop where you practise the wrong thing hard.",
         ],
       },
@@ -249,8 +249,8 @@ export const en = {
         q: "What do the tour years teach?",
         a: [
           "That this is not only a cue and a ball.",
-          "I have played 8-ball, 9-ball, 10-ball and straight pool for a living. The year is hard: dozens of events, a lot of days abroad. On a tournament trip the focus is the game. Friends think I am seeing the world. The reality is hotel porridge and the same routine in a different city.",
-          "In 2018 the results were poor and the money was not coming. I ended up with a psychologist. That period opened locks. It may sound heavy for a website, but it is true: in this sport the head decides as much as the hand.",
+          "I have played 8-ball, 9-ball, 10-ball and Straight pool for a living. The year is hard: dozens of events, a lot of days abroad. On a tournament trip the focus is the game. Friends think I am seeing the world. The reality is hotel porridge and the same routine in a different city.",
+          "In 2018 the results were poor and the money was not coming. I ended up with a psychologist. That period opened locks. It may sound heavy, but it is true: in this sport the head decides as much as the hand.",
           "So in a session we do not only talk about where the ball is struck. We also talk about what happens when you miss an easy one and still have to play the next.",
           "The brightest crown, a world title, is still out there for me. Same attitude for the person I coach: a short goal, a long goal, then the work. No win without sacrifice. That does not mean a hobby player has to live like a professional. It means progress takes a decision.",
         ],
@@ -267,20 +267,20 @@ export const en = {
         q: "How to prepare?",
         a: [
           "Bring your own cue if you have one. If not, we manage with the hall's.",
-          "Think of one thing in advance: what you want to feel better after the hour. That the ball leaves cleaner. That you know the rules. That your group gets a shared game. That your break is not a lottery.",
-          "If you come as a tournament player, tell me which game you play and where it last jammed. The more precisely you can say that, the less time we spend guessing.",
+          "Think of one thing in advance, if it is already in mind: what you want to feel more certain about. We still start by finding your level, and nothing is required beforehand.",
+          "If you come as a tournament player, tell me the game and the moment it got tight, or where a decision was left open. The more precisely you can say that, the less time we spend guessing. If you cannot name it yet, we find it together.",
         ],
       },
       {
         q: "Groups, companies, schools",
         a: [
-          "The fundamentals, the rules, the start of a stroke, and a match.",
+          "First the fundamentals. Then the rules and the stroke. Then we play.",
           "I have seen enough players at different levels that the basic notes go in quickly. In group sessions the starting point is: learn, try, play. For a company it is a day out that is not a fake team-building exercise. For school groups it is a sport where you can do well without being the biggest or the fastest.",
           "Fun is not the opposite of learning. It is the reason people come back to the table.",
         ],
       },
       {
-        q: "How do you know it is working?",
+        q: "How do you know the learning is working?",
         a: [
           "When you no longer ask why that missed, but you already know before the stroke what the risk was.",
           "When practice is no longer “let's hit a few balls”, but you have one or two things you repeat on purpose.",
@@ -291,25 +291,25 @@ export const en = {
   },
   eventsPage: {
     intro:
-      "A private night, a Christmas party, a kickoff or a staff day. It also works for the person who has never held a cue. Exhibition shots, a short brief, the rest of the evening we play. The venue can be yours or we find a hall. Tables are needed, the rest is on me.",
+      "A staff day, a wellbeing day, a Christmas party or a client evening. The night is built in detail around your group. Trick shots you won't see in every billiard hall. Clear guidance for the whole group, so everyone gets to play and succeed. The venue can be yours, or we find a billiard hall.",
     items: [
       {
         title: "Private events",
-        body: "A dinner, a birthday or a room that wants shots you don't see in every hall. The show is scaled to the space, and afterwards everyone gets to try the same shot themselves.",
+        body: "A dinner, a birthday, a stag or hen party, or a special event for key clients. Trick shots you won't see in every billiard hall. Clear guidance, and then everyone gets to play and succeed themselves.",
       },
       {
         title: "Corporate days",
-        body: "Staff days, kickoffs and client evenings. A short brief gets the whole room playing within minutes, so the night doesn't split into players and spectators. Length and programme follow the size of the group.",
+        body: "Staff days, wellbeing days, kickoffs and client evenings. The night is built in detail around your group. Clear guidance for the whole group, so everyone gets to play and nobody is left watching.",
       },
       {
         title: "Schools and youth",
-        body: "Rules briefly, then a cue in hand and learning by doing. Group size and length are agreed in advance, and the programme is built so that a complete beginner also pots a ball.",
+        body: "It suits everyone. This is not a lecture. It is hands-on, and it pulls people in. First the fundamentals. Then the rules and the stroke. Then we play. Group size and length are agreed in advance, and a first-timer gets to succeed too.",
       },
     ],
     faqLabel: "Jani answers",
     faqTitle: "What an event\nactually is",
     faqIntro:
-      "Exhibition shots, a short brief, then cues in hand. I don't sell a fake team-building day. The sport is serious, the mood is not.",
+      "Trick shots, clear guidance, then cues in hand. The night is built around your group. The sport is serious, the mood is not.",
     faq: [
       {
         q: "Why pool?",
@@ -322,17 +322,17 @@ export const en = {
       {
         q: "What happens on the night?",
         a: [
-          "We open with a show. Shots you don't see in every hall. That starts the night and makes it clear someone in the room can actually play.",
-          "Then a short brief: grip, stance, enough rules that the game moves. Within a few minutes the whole group is at the table, including the people who came “just to watch”.",
-          "The rest of the evening we play. I am there: I correct, I show, I keep the rhythm. I do not stand in the corner waiting for the programme to end.",
+          "We open with trick shots you won't see in every billiard hall. That starts the night.",
+          "Then clear guidance: the fundamentals, the rules and enough of the stroke that the game moves. The whole group gets to the table, including the people who came just to watch.",
+          "The rest of the evening we play. I am there: I correct, I show, I keep the rhythm.",
         ],
       },
       {
         q: "What if nobody has played?",
         a: [
           "That is when this is at its best.",
-          "I have seen it enough: the people who can play go off on their own and the rest become spectators. That is why the night is built this way. Show, brief, play. No assumed skill. The assumption is that the group wants to do something together.",
-          "A first-timer pots a ball. That is the minimum, not a bonus.",
+          "I have seen it enough: the people who can play go off on their own and the rest are left watching. That is why the night is built this way. Trick shots, guidance, play. Skill is not assumed. The group wants to do something together.",
+          "A first-timer gets to succeed too. That is the measure of the night.",
         ],
       },
       {
@@ -340,21 +340,21 @@ export const en = {
         a: [
           "A table without a programme is furniture.",
           "Then the night becomes three people who can play and everyone else circling with a glass. That is not an event. That is a break.",
-          "A professional in the room is not decoration. It is someone who holds the night together: shows, splits the tables, gets the shy one to hit, and can play the shot people took their phones out for.",
+          "A professional in the billiard hall holds the night together: shows, splits the tables, gets the shy one to hit, and can play the trick shot people took their phones out for.",
         ],
       },
       {
-        q: "Show or a lesson?",
+        q: "Tricks or a lesson?",
         a: [
           "Both. In that order.",
-          "A show on its own is watching. A lesson on its own is an hour. An event is seeing something you don't see in every hall, and then trying it yourself.",
+          "Trick shots on their own are watching. A lesson on its own is an hour. An event is seeing shots you won't see in every billiard hall, and then trying them yourself.",
           "Nobody goes home thinking they should have been allowed a go. The go is in the programme.",
         ],
       },
       {
         q: "What this is not?",
         a: [
-          "It is not a fake team day where you invent values on a flipchart.",
+          "It is not a compulsory team day where you invent values together.",
           "It is also not me playing all night while you clap. I show, I explain, then you hit.",
           "And it is not a contest where the loser looks small. The sport is serious, the mood is not.",
         ],
@@ -362,16 +362,16 @@ export const en = {
       {
         q: "Where is it held?",
         a: [
-          "The venue can be yours or we find a suitable hall. Tables are needed. The rest is on me.",
-          "Regularly in the Helsinki region, elsewhere in Finland and abroad by agreement. Put the venue, headcount and date on the form. Then you get a quote, not a guess.",
+          "The venue can be yours, or we find a suitable billiard hall. Tables are needed. The rest is on me.",
+          "Regularly in the capital region, elsewhere in Finland and abroad by agreement. Put the venue, headcount and date on the form. Then you get a quote, not a guess.",
         ],
       },
       {
         q: "Schools and birthdays?",
         a: [
           "Same logic, different tone.",
-          "For school groups: rules briefly, cue in hand, learning by doing. A sport where you can do well without being the biggest.",
-          "At a private night the show is scaled to the room: a dinner, a birthday, a crew that wants shots. Then everyone gets to try the same one.",
+          "For schools and young people this suits everyone. Not a lecture, but something that pulls them in: first the fundamentals, then the rules and the stroke, then we play.",
+          "At a private night the trick shots are scaled to the room: a dinner, a birthday, a stag or hen party, a group that wants to see the shots. Then everyone gets to try the same one.",
           "For a company it is a day out that does not feel like a compulsory item on the agenda.",
         ],
       },
@@ -379,7 +379,7 @@ export const en = {
         q: "How do you know it worked?",
         a: [
           "When there are no spectators left.",
-          "When someone who “never plays” asks for one more rack.",
+          "When someone who never plays asks for one more game.",
           "And when the next week people talk about that shot, not about how it was “quite nice”. Nice is forgotten. That shot is not.",
         ],
       },
@@ -387,15 +387,15 @@ export const en = {
   },
   repairsPage: {
     intro:
-      "I service cues to the standard I demand from my own. Tip, ferrule and shaft. You get an estimate of the work and the timeline before anything is done. Tell me what happened to the cue and how the hit feels now.",
+      "I service cues to the standard I demand from my own. Tip, ferrule, grip and a clean. Whatever the cue needs, tell me, and you get an estimate of the work and the timeline before anything is touched.",
     items: [
       {
         title: "Tip and ferrule",
-        body: "Replaced and shaped when the hit no longer holds or the tip has simply done its miles. The hardness is chosen to match how you play, not what happens to be on the shelf.",
+        body: "Replaced and shaped when the tip has gone numb, or it is time for the tip to retire. The hardness is chosen to match how you play, not what happens to be on the shelf.",
       },
       {
         title: "Shaft",
-        body: "Cleaned, checked for straightness and the surface brought back so nothing drags in your hand. No tricks and no invented work: only what needs doing, with the reason why.",
+        body: "Cleaning and a straightness check work on wood and on carbon fibre. On wood I can bring the surface back so nothing drags in the hand. I cannot change the surface of a carbon-fibre shaft. No tricks and no invented work: only what needs doing, with the reason why.",
       },
     ],
   },
@@ -430,9 +430,9 @@ export const en = {
   },
   jani: {
     kicker: "Player",
-    p1: "I came to pool as an adult. First a goalkeeper, then a European cheerleading champion with Funky Team Gorillaz. Then this table took over.",
-    p2: "Born in Helsinki on 19 April 1987. Full-time pool professional since 2013. The games are 8-ball, 9-ball, 10-ball and straight pool. The years at the table show in how quickly another player's mistake becomes visible. Some people call me Siego. That's enough of that.",
-    p3: "I still compete on the Euro Tour and WNT, and I have played the US Open. Best finish around 33rd. More than 20 Finnish championship medals along the way. The same game we work through in a session is tested every season, by me.",
+    p1: "I started playing billiards at 16. I have also been a goalkeeper, won a European cheerleading title with Funky Team Gorillaz, and won skateboarding competitions.",
+    p2: "Born in Helsinki in 1987. Full-time pool professional since 2013. The games are 8-ball, 9-ball, 10-ball and straight pool. What several sports and elite sport have taught me shows in how quickly another player's mistake becomes visible, and in how the game looks under pressure. My nickname is Siego. If you ever hear it, that's me.",
+    p3: "I compete on the European tour and the WNT, and in Finland too. More than 20 Finnish championship medals along the way. In coaching, that same whole is tested every season, by me: the game, the mental side, and what the other sports have taught.",
     pressLabel: "In the press",
     press: [
       {
@@ -453,48 +453,50 @@ export const en = {
     "These are the results I can put in writing without inventing medals. I am still competing.",
   results: [
     { year: "20+", text: "Finnish championship medals" },
+    { year: "75+", text: "Podium finishes" },
+    { year: "2021", text: "European champion (team). Billiards." },
     { year: "2018", text: "Finnish champion, 8-ball" },
     { year: "2025", text: "10-ball Finnish Championship silver" },
     { year: "2015, 2018", text: "National pairs titles (gold)" },
     { year: "2015", text: "Winner of the first Finnish Pool Tour event" },
-    { year: "-", text: "US Open appearances; best finish around 33rd." },
+    { year: "2023", text: "4th place at the American 14.1 tournament." },
   ],
   faqLabel: "Good to know",
   faqTitle: "Before the first\nshot",
   faqIntro:
-    "Venue, level and the job are shaped around where you start. You don't need to know anything in advance. These are the questions that come up most often. If yours isn't on the list, ask through the form.",
+    "First we find out your starting level. Venue and content follow from that, and you don't need to know anything in advance. If your question isn't on the list, ask through the form.",
   faq: [
     {
       q: "Is this pool or billiards?",
-      a: "Pool. In Finland the sport sits under billiards, so searches often say billiards coaching. I coach 8-ball, 9-ball, 10-ball and straight pool. I don't coach snooker.",
+      a: "There are several billiard games. They all run on the same laws of physics. Whether the game is pool or snooker, I can help with technique, aim and the other parts of the game.",
     },
     {
       q: "Where do you coach?",
-      a: "Regularly in the Helsinki region and elsewhere in Finland by agreement. We play at a hall you already know or we find a table. House calls and longer trips are arranged case by case.",
+      a: "Anywhere in the capital region, and elsewhere in Finland by agreement. We play at a billiard hall you already know, or we find a table.",
     },
     {
       q: "What is a private session?",
-      a: "An hour at the table, just the two of us, not a lecture. I watch how you play first, then we work on the place where the game leaks. You leave with a clear practice plan you can run on your own.",
+      a: "One player, one table, the whole session for you. First we find your starting level and go through, in detail, what the game is made of. You get a complete package shaped around what you need.",
     },
     {
-      q: "Absolute beginner?",
-      a: "Yes, and many are. Fundamentals are their own thing: grip, stance and cue-ball control, calmly and in order. Tournament players have a separate path, so nobody spends the hour at the wrong level.",
+      q: "Can I come as a beginner?",
+      a: "Yes. If you're a beginner, there's nothing to worry about and nothing you need to know in advance. We find your level and build the session from there.",
     },
     {
       q: "Companies?",
-      a: "Absolutely. The programme is built around group size and the length of the evening so that first-timers play too. Tables are needed: the venue can be yours, or we find a suitable hall together.",
+      a: "Absolutely. The programme is built around group size and the length of the evening so that first-timers play too. The venue can be yours. If there are no tables, we find a suitable billiard hall together.",
     },
     {
       q: "What does an event cost?",
-      a: "The price depends on the venue, the duration and the size of the group, so every event gets its own quote. Put the venue, headcount and date on the form and you'll get a clear price without extra rounds.",
+      a: "The price depends on the venue, the duration and the size of the group, so every event gets its own quote. If you don't have a venue in mind, I can recommend billiard halls, and you get the full cost straight away.",
     },
     {
       q: "Video analysis online?",
-      a: "Yes. You film your shots on a phone and send the clips; I send back specific corrections and drills in priority order. It works well if you live outside the Helsinki region.",
+      a: "Yes. You film your shots on a phone and send the clips. I send back the corrections and drills in priority order. It works well outside the capital region too.",
     },
     {
       q: "Sponsorship?",
-      a: "Very much so. Read the partners page, then say on the form which brand you represent, what you want and what you expect: jerseys, social or the tour. I'll come back with a proposal.",
+      a: "Yes. A company, a private person, or anyone else can come in and support. There's visibility on the tour, on social media and on the jersey. The partnership is agreed together, around what you want from it. Say so on the form and I'll come back with a proposal.",
     },
   ],
   form: {

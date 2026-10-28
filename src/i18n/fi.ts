@@ -31,7 +31,7 @@ export const fi = {
   email: "Sähköposti",
   phone: "Puhelin",
   whatsapp: "WhatsApp",
-  locationLine: "Helsingin seudulla säännöllisesti, muualla Suomessa ja ulkomailla sopimuksen mukaan.",
+  locationLine: "Pääkaupunkiseudulla säännöllisesti, muualla Suomessa ja ulkomailla sopimuksen mukaan.",
   meta: {
     home: {
       title: "Biljardivalmennus Helsinki · Jani Siekkinen",
@@ -48,13 +48,13 @@ export const fi = {
     events: {
       title: "Yksityistilaisuudet ja yritystapahtumat · Jani Siekkinen",
       description:
-        "Pikkujoulut, kickoffit ja TYKY Helsingissä: showlyönnit, ohjattu peli ja ilta, joka toimii myös ensikertalaiselle. Miksi biljardi, ja mitä illassa tapahtuu.",
+        "TyKy, TyHy, pikkujoulut ja asiakasillat pääkaupunkiseudulla. Temppulyöntejä ja selkeät ohjeet, jotta koko porukka pääsee pelaamaan ja onnistumaan.",
       h1: "Tilaisuudet",
     },
     repairs: {
       title: "Keppihuollot · Jani Siekkinen",
       description:
-        "Kärki, ferruli ja shaft kuntoon. Kerro, mitä kepille tapahtui, niin saat arvion työstä ja aikataulusta.",
+        "Tippi, holkki, grippi ja puhdistukset. Kerro huoltotarve, niin saat arvion työstä ja aikataulusta ennen kuin mitään tehdään.",
       h1: "Huollot",
     },
     gameon: {
@@ -110,8 +110,8 @@ export const fi = {
     kicker: "Poolammattilainen",
     first: "Jani",
     last: "Siekkinen",
-    proof: "8-pallon Suomen mestari 2018. Edelleen kansainvälisillä kiertueilla.",
-    lead: "Olen pelannut poolia ammatikseni vuodesta 2013. Valmennan, vedän tilaisuuksia ja huollan keppejä sillä tarkkuudella, jolla itse kilpailen.",
+    proof: "Moninkertainen Suomen mestari sekä Euroopan mestari.\nWorld Nineball Tour Pro-pelaaja.",
+    lead: "Olen pelannut poolia ammatikseni vuodesta 2013. Valmennan, esiinnyn tilaisuuksissa ja huollan keppejä samalla huolellisuudella, jolla itse kilpailen.",
     cta: "Ota yhteyttä",
     alt: "Jani Siekkinen tähtää kiertueella",
   },
@@ -122,48 +122,48 @@ export const fi = {
     { k: "10+", v: "vuotta poolammattilaisena" },
   ],
   workLabel: "Mitä teen",
-  pitchLabel: "Miksi tämä",
-  pitchTitle: "Perusteet kuntoon.\nSitten peli.",
+  pitchLabel: "Miksi minä",
+  pitchTitle: "Perusteet kuntoon.\nSitten varmuus.",
   pitchBody:
-    "En myy kurssia enkä valmista pakettia. Katson ensin, miten pelaat. Sitten korjataan lyönti, rytmi ja päätökset: ne asiat, jotka pettävät, kun peli kiristyy.",
+    "En myy kurssia enkä valmista pakettia. Katson ensin, mitä tarvitsee kehittää. Sitten korjataan, mitä pitää, jotta saat lyöntiisi varmuutta ja tarvittavat taidot, kun peli menee jännäksi.",
   pitchPoints: [
     {
       k: "1-to-1",
-      v: "Yksi pelaaja, yksi pöytä, koko tunti sinua varten. Sisältö tulee siitä, mitä oma pelisi näyttää. Ei yleistä luentoa.",
+      v: "Yksi pelaaja, yksi pöytä, koko sessio sinua varten. Sisältö tehdään aina asiakkaan mukaan, ei valmiita kursseja.",
     },
     {
       k: "Show",
-      v: "Pikkujoulut, kickoffit ja yksityiset illat. Lyöntejä, joita ei näe joka hallissa, ja sen verran ohjausta, että jokainen paikalla oleva pääsee itse pelaamaan.",
+      v: "TyKy, TyHy tai muu työporukan yhteinen tekeminen. Pikkujoulut, kickoffit tai avainasiakkaille erikoistapahtuma. Temppulyöntejä, joita ei näe ihan joka biljardisalilla. Hyvät ja selkeät ohjeet koko porukalle, jotta kaikki pääsevät pelaamaan ja onnistumaan.",
     },
     {
       k: "Sponsori",
-      v: "Kiertue, some ja pelipaidat. Merkki näkyy siellä, missä pelataan. Kuvat tulevat kisoista, ei kuvituskuvasta.",
+      v: "Yritys, yksityishenkilö tai kuka tahansa voi lähteä tukemaan. Näkyvyyttä saa kiertueella, somessa ja pelipaidassa. Yhteistyökuviot sovitaan yhdessä, sen mukaan mitä yhteistyöltä haetaan.",
     },
     {
-      k: "Helsinki",
-      v: "Helsingin seudulla säännöllisesti, muualla Suomessa ja ulkomailla sopimuksen mukaan. Tulen tarvittaessa teidän pöytienne ääreen.",
+      k: "Uusimaa",
+      v: "Uudellamaalla säännöllisesti, muualla Suomessa ja ulkomailla sopimuksen mukaan. Tulen tarvittaessa teidän pöytienne ääreen.",
     },
   ],
   leads: {
     coaching: {
       title: "Valmennukset",
-      body: "Yksityistunti tai pieni ryhmä. Käydään lyönti, rytmi ja päätökset, ja korjataan se, mikä hajoaa, kun peli kiristyy. Tunnin jälkeen tiedät, mitä treenaat seuraavaksi.",
+      body: "Yksityistunti tai pieni ryhmä. Käydään perusteellisesti läpi, mistä peli koostuu. Kattava kokonaisuus juuri teidän tarpeisiinne. Vastaukset kaikkiin pelin osa-alueisiin.",
     },
     events: {
       title: "Tilaisuudet",
-      body: "Yksityiset illat, pikkujoulut ja yrityspäivät. Showlyönnit ensin, sitten kepit vieraiden käsiin. Myös niille, jotka eivät ole pelanneet koskaan.",
+      body: "TyKy, pikkujoulut tai asiakasilta. Ilta rakennetaan perusteellisesti teidän porukkanne mukaan. Kattava kokonaisuus juuri teidän tarpeisiinne. Selkeät ohjeet koko porukalle, jotta kaikki pääsevät pelaamaan ja onnistumaan.",
     },
     repairs: {
       title: "Huollot",
-      body: "Kärki, ferruli ja shaft kuntoon niin, että lyönti tuntuu jälleen omalta. Kerro, mitä kepille tapahtui, niin saat arvion työstä ja aikataulusta ennen kuin mitään tehdään.",
+      body: "Tippi, holkki, grippi ja puhdistukset. Mikä huoltotarpeesi onkaan, kerro se, niin saat arvion työstä ja aikataulusta ennen kuin mitään tehdään.",
     },
     gameon: {
       title: "GameOn",
-      body: "Pelipaidat omalle pelille, seuralle tai porukalle. Koot ja saatavuus vaihtelevat, joten kerro koko ja määrä lomakkeella. Palaan hinnan ja toimitusajan kanssa.",
+      body: "Pelipaita itselle tai koko joukkueelle oma. Uuden ajan Dry Tech -teknologia ja moneen suuntaan venyvä, supermiellyttävän tuntuinen kangas. Jokainen paita tehdään kustomoituna. Koot ja saatavuus vaihtelevat, joten kerro koko ja määrä lomakkeella. Palaan hinnan ja toimitusajan kanssa.",
     },
     sponsor: {
       title: "Yhteistyö",
-      body: "Kiertue, some ja pelipaidat. Näkyvyys tulee kisoista. Kerro, mitä tavoittelet ja mitä sinulla on tarjota. Sitten ehdotan, miltä se näyttää.",
+      body: "Yritys, yksityishenkilö tai kuka tahansa voi lähteä tukemaan. Näkyvyyttä saa kiertueella, somessa ja pelipaidassa. Yhteistyökuviot sovitaan yhdessä, sen mukaan mitä haetaan.",
     },
   },
   services: {
@@ -183,40 +183,40 @@ export const fi = {
   } satisfies Record<ServiceId, string>,
   coaching: {
     intro:
-      "Valmennan Helsingissä samalla pöydällä, jolla itse kilpailen. Ei valmista pakettia: katsotaan ensin, missä peli vuotaa. Sitten tehdään se uudestaan niin monta kertaa, että korjaus pysyy myös paineessa.",
+      "Yksityistunti tai pieni ryhmä. Selvitetään ensin lähtötaso, eikä mitään tarvitse osata etukäteen. Käydään perusteellisesti läpi, mistä peli koostuu. Kattava kokonaisuus juuri teidän tarpeisiinne.",
     items: [
       {
         title: "Yksityinen 1-to-1",
-        body: "Yksi pelaaja ja koko huomio sinulle. Käydään asento, lyönti ja valkoisen hallinta, mutta myös päätökset: mitä pelaat, kun helppo kuvio loppuu. Sisältö tulee siitä, mitä ottelusi näyttää, ei etukäteen tehdystä tuntisuunnitelmasta.",
+        body: "Yksi pelaaja, yksi pöytä, koko sessio sinua varten. Sisältö tehdään aina asiakkaan mukaan, ei valmiita kursseja. Saat vastaukset kaikkiin pelin osa-alueisiin.",
       },
       {
         title: "Pienryhmä 2–4",
-        body: "Sama kieli koko porukalle ja enemmän toistoja pöytää kohden. Sopii kaveriporukalle tai seuran pelaajille, jotka haluavat saman korjauksen yhtä aikaa ja pystyvät sen jälkeen valmentamaan toisiaan treeneissä.",
+        body: "Pieni ryhmä, sama sessio koko porukalle. Käydään perusteellisesti läpi, mistä peli koostuu, ja rakennetaan kokonaisuus teidän tarpeisiinne.",
       },
       {
         title: "Alkeet",
-        body: "Ote, asento, tähtäys ja valkoisen hallinta järjestyksessä, joka toimii. Aloitetaan nollasta ilman kisajargonia, ja ensimmäisen tunnin jälkeen pöydän ääressä on rutiini, jota voi harjoitella yksin.",
+        body: "Aloittelijana ei ole hätää, eikä mitään tarvitse osata etukäteen. Selvitetään lähtötaso ja rakennetaan sessio siitä.",
       },
       {
         title: "Kotikäynnit ja matkat",
-        body: "Tulen Helsingin seudulla teidän pöytienne ääreen ja muualle Suomeen sopimuksen mukaan. Pidemmät matkat ja ulkomaat järjestyvät, kun aikataulu ja kokonaisuus ovat järkeviä.",
+        body: "Pääkaupunkiseudulla missä vain, muualla Suomessa ja ulkomailla sopimuksen mukaan. Pelataan tutussa biljardisalissa tai tulen teidän pöytienne ääreen.",
       },
       {
         title: "Videoanalyysi",
-        body: "Kuvaat lyöntejäsi puhelimella ja lähetät klipit. Saat takaisin konkreettiset korjaukset ja harjoitteet järjestyksessä. Et saa yleistä luentoa. Saat sen, mikä nostaa tasoa nopeimmin.",
+        body: "Kuvaat lyöntejäsi puhelimella ja lähetät klipit. Palautan korjaukset ja harjoitteet tärkeysjärjestyksessä. Toimii hyvin myös pääkaupunkiseudun ulkopuolella.",
       },
     ],
     faqLabel: "Jani vastaa",
     faqTitle: "Mitä valmennus\noikeasti on",
     faqIntro:
-      "Valmennuksessa annan eteenpäin sen, minkä olen itse maksanut ajalla, matkoilla ja virheillä. Perusteet kuntoon, peli kulkemaan, pää mukaan. Tunneilla ei mökötetä.",
+      "Jaan eteenpäin sen, minkä olen itse selvittänyt kovalla työllä, rahalla sekä verellä, hiellä ja kyynelillä. Perusteet kuntoon, peli kulkemaan, pää mukaan. Tunneilla ei mökötetä.",
     faq: [
       {
         q: "Miksi ammattivalmennusta?",
         a: [
           "Oppiihan sen pelaamallakin. Sillä tavalla oppii myös kymmenen huonoa tapaa, jotka tuntuvat omilta, koska niitä on toistanut tuhansia kertoja.",
-          "Biljardissa erot tehdään pienissä asioissa. Asento, ote, tempo, se, miltä lyönti tuntuu, kun se onnistuu. Jos niitä ei kukaan katso sivusta, sä korjaat väärää asiaa. Itsekin olen nähnyt sen sekä omassa pelissä että salilla: kaveri takoo tunteja, mutta sama missi toistuu, koska perusta ei ole kunnossa.",
-          "Ammattivalmennus ei ole temppukoulu. Se on se, että joku, joka on takonut lyöntejä sisään vuosikausia, näyttää, missä sun peli oikeasti vuotaa. Säästät aikaa. Ja aika on tässä lajissa se kallein juttu.",
+          "Biljardissa erot tehdään pienissä asioissa. Asento, ote, tempo, se, miltä lyönti tuntuu, kun se onnistuu. Jos niitä ei kukaan katso sivusta, korjaus menee helposti viereen. Olen nähnyt sen omassa pelissä ja biljardisalilla: tunteja kertyy, mutta sama kohta palaa, kun perusta ei ole vielä kunnossa.",
+          "Käydään perusteellisesti läpi, mistä sun peli koostuu. Katson ensin, mitä tarvitsee kehittää, ja korjataan se, jotta lyöntiin tulee varmuus silloinkin, kun peli menee jännäksi. Siinä säästyy aikaa, koska tunteja ei kulu väärän asian toistamiseen.",
         ],
       },
       {
@@ -224,7 +224,7 @@ export const fi = {
         a: [
           "Ensin katsotaan, mistä lähdetään. Toisella on jo vuosien harrastus, toisella keppi kädessä ensimmäistä kertaa. Sama ohjelma ei toimi molemmille.",
           "Käydään läpi perusasiat: ote, asento, tähtääminen, lyönnin rytmi. Sitten tehdään harjoitteita, jotka voi viedä omaan treeniin. Tavoite ei ole se, että mä seison vieressä ja sä näytät hyvältä tunnin ajan. Tavoite on se, että sä tiedät seuraavalla kerralla, mitä treenaat ja miksi.",
-          "Jos tulet ryhmän kanssa, opitaan säännöt, etiketti ja sen verran tekniikkaa, että peli alkaa kulkea. Sitten pelataan. Jos tulet yksin kehittämään peliä, mennään tarkemmin: missä pallo jää, miksi se jää sinne, mitä vaihtoehtoja oli ja miltä päässä tuntui siinä kohdassa, kun päätös piti tehdä.",
+          "Jos tulet ryhmän kanssa, opitaan säännöt, etiketti ja sen verran tekniikkaa, että peli alkaa kulkea. Sitten pelataan. Jos tulet yksin kehittämään peliä, mennään tarkemmin. Katsotaan, mihin valkoinen jää ja miksi se jäi sinne. Sitten käydään läpi, mitä muita vaihtoehtoja oli, ja miltä päässä tuntui, kun päätös piti tehdä.",
           "Yksi tunti ei tee mestariksi. Yksi tunti voi kuitenkin katkaista sen kierteen, että sä harjoittelet väärää asiaa kovaa.",
         ],
       },
@@ -238,10 +238,10 @@ export const fi = {
         ],
       },
       {
-        q: "Eikö salin kaveri riitä?",
+        q: "Eikö biljardisalin kaveri riitä?",
         a: [
           "Salilla on aina joku, joka “osaa neuvoa”. Se joku neuvoo usein sitä, mikä toimii hänellä.",
-          "Huipulla on nykyään ravintoterapeutteja, fysioterapeutteja, psykologeja ja PT:itä. Erot tehdään salin ulkopuolellakin. Vanhan liiton jätkätkin ovat tajunneet, että elämäntapojen on oltava kunnossa, jos tässä haluaa pärjätä.",
+          "Huipulla on nykyään ravintoterapeutteja, fysioterapeutteja, psykologeja ja PT:itä. Erot tehdään biljardisalin ulkopuolellakin. Vanhan liiton jätkätkin ovat tajunneet, että elämäntapojen on oltava kunnossa, jos tässä haluaa pärjätä.",
           "Sama logiikka pätee harrastajaan. Kokenut pelaaja näkee, että pallo ei mene. Ammattilainen näkee, miksi se ei mene, ja osaa sanoa sen niin, että sä pystyt korjaamaan sen itse. Eikä kyse ole vain tekniikasta. Kyse on siitä, mitä sä teet, kun peli ei kulje. Sitäkin on nähty riittävästi – omasta peilistä.",
         ],
       },
@@ -249,8 +249,8 @@ export const fi = {
         q: "Mitä kisavuodet opettavat?",
         a: [
           "Sen, että tämä ei ole pelkkä keppi ja pallo.",
-          "Olen pelannut ammatikseni 8-, 9- ja 10-palloa sekä suoraa palloa. Vuosirytmi on kova: kymmeniä kisoja, paljon päiviä ulkomailla. Kisamatkalla huomio on pelissä. Kaverit kuvittelevat, että mä näen maailmaa. Todellisuus on hotellipuuroa ja sama rutiini eri kaupungissa.",
-          "Vuonna 2018 tulokset olivat kehnoja ja rahaa ei tullut. Päädyin psykologille. Siitä tuli jakso, joka avasi lukkoja. Se kuulostaa ehkä raskaalta kotisivulle, mutta se on totta: tässä lajissa pää ratkaisee yhtä paljon kuin käsi.",
+          "Olen pelannut ammatikseni 8-, 9- ja 10-palloa sekä Straight poolia. Vuosirytmi on kova: kymmeniä kisoja, paljon päiviä ulkomailla. Kisamatkalla huomio on pelissä. Kaverit kuvittelevat, että mä näen maailmaa. Todellisuus on hotellipuuroa ja sama rutiini eri kaupungissa.",
+          "Vuonna 2018 tulokset olivat kehnoja ja rahaa ei tullut. Päädyin psykologille. Siitä tuli jakso, joka avasi lukkoja. Se kuulostaa ehkä raskaalta, mutta se on totta: tässä lajissa pää ratkaisee yhtä paljon kuin käsi.",
           "Siksi valmennuksessa ei puhuta vain siitä, mihin pallo osuu. Puhutaan myös siitä, mitä tapahtuu, kun missaat helpon pallon ja seuraava lyönti pitää silti lyödä.",
           "Kirkkain kruunu, MM-kulta, siintää mulle edelleen. Sama asenne pätee valmennettavaan: asetetaan lyhyt ja pitkä tavoite, ja sitten tehdään töitä. Ilman uhrausta ei tule voittoa. Se ei tarkoita, että harrastajan pitää elää kuin ammattilainen. Se tarkoittaa, että kehitys vaatii päätöksen.",
         ],
@@ -266,21 +266,21 @@ export const fi = {
       {
         q: "Miten valmistautua?",
         a: [
-          "Oma keppi, jos sulla on. Jos ei ole, pärjätään salin välineillä.",
-          "Mieti etukäteen yksi asia: minkä haluat tuntuvan paremmalta tunnin jälkeen. Että pallo lähtee puhtaammin. Että tiedät säännöt. Että kaveriporukka saa yhteisen pelin. Että sun avaus ei ole arpapeliä.",
-          "Jos tulet kilpapelaajana, kerro, missä pelimuodossa pelaat ja missä peli tökki viimeksi. Mitä tarkemmin sä osaat sanoa sen, sitä vähemmän aikaa menee arvailuun.",
+          "Oma keppi, jos sulla on. Jos ei ole, pärjätään biljardisalin välineillä.",
+          "Mieti etukäteen yksi asia, jos se on jo mielessä: mitä haluat saada varmemmaksi. Lähtötaso selvitetään silti ensin, eikä mitään tarvitse osata etukäteen.",
+          "Jos tulet kilpapelaajana, kerro pelimuoto ja se kohta, jossa peli meni jännäksi tai päätös jäi auki. Mitä tarkemmin sä osaat sanoa sen, sitä vähemmän aikaa menee arvailuun. Jos sitä ei vielä osaa nimetä, katsotaan se yhdessä.",
         ],
       },
       {
         q: "Entä ryhmät ja firmat?",
         a: [
-          "Perusteet, säännöt, lyöntitekniikan alku – ja ottelu.",
+          "Ensin perusteet. Sitten säännöt ja lyöntitekniikat. Sitten pelataan.",
           "Olen sen verran paljon nähnyt eri tasoisia pelaajia, että perusvinkit saa kuntoon nopeasti. Ryhmäohjauksissa lähtökohta on se, että opitaan, kokeillaan ja pelataan. Yritykselle se on virkistystä, joka ei ole teennäistä tiimipäivää. Koululaisille se on laji, jossa pärjää ilman että pitää olla isoin tai nopein.",
           "Hauskanpito ei ole vastakohta oppimiselle. Se on se syy, miksi ihmiset palaavat pöydän ääreen.",
         ],
       },
       {
-        q: "Mistä tietää, että puree?",
+        q: "Mistä tietää, että oppi toimii?",
         a: [
           "Silloin kun sä et enää kysy “miksi toi ei menny”, vaan sä tiedät jo ennen lyöntiä, mikä siinä oli riski.",
           "Silloin kun treeni ei ole enää “lyödään vähän palloja”, vaan sulla on yksi tai kaksi juttua, joita toistat tietoisesti.",
@@ -291,25 +291,25 @@ export const fi = {
   },
   eventsPage: {
     intro:
-      "Yksityinen ilta, pikkujoulut, kickoff tai TYKY. Ohjelma toimii myös sille, joka ei ole pitänyt keppiä kädessä. Showlyönnit, lyhyt opastus, loppuilta pelataan. Paikka voi olla teidän tai etsitään halli. Pöydät tarvitaan, muusta huolehdin minä.",
+      "TyKy, TyHy, pikkujoulut tai asiakasilta. Ilta rakennetaan perusteellisesti teidän porukkanne mukaan. Temppulyöntejä, joita ei näe ihan joka biljardisalilla. Selkeät ohjeet koko porukalle, jotta kaikki pääsevät pelaamaan ja onnistumaan. Paikka voi olla teidän, tai etsitään biljardisali.",
     items: [
       {
         title: "Yksityistilaisuudet",
-        body: "Illallinen, synttärit tai porukka, joka haluaa nähdä lyöntejä, joita ei näe joka hallissa. Show sovitetaan tilan kokoon, ja sen jälkeen jokainen pääsee itse yrittämään samaa lyöntiä.",
+        body: "Illallinen, synttärit, polttarit tai avainasiakkaille erikoistapahtuma. Temppulyöntejä, joita ei näe ihan joka biljardisalilla. Selkeät ohjeet, ja sen jälkeen jokainen pääsee itse pelaamaan ja onnistumaan.",
       },
       {
         title: "Yritystapahtumat",
-        body: "TYKY-päivät, kickoffit ja asiakasillat. Lyhyt opastus saa koko porukan pelaamaan muutamassa minuutissa, joten ilta ei jakaudu osaaviin ja sivustakatsojiin. Kesto ja ohjelma sovitaan ryhmän koon mukaan.",
+        body: "TyKy, TyHy, kickoffit ja asiakasillat. Ilta rakennetaan perusteellisesti teidän porukkanne mukaan. Selkeät ohjeet koko porukalle, jotta kaikki pääsevät pelaamaan eikä kukaan jää katsomaan.",
       },
       {
         title: "Koulut ja nuoret",
-        body: "Säännöt lyhyesti, sitten keppi käteen ja tekemisen kautta eteenpäin. Ryhmäkoko ja kesto sovitaan etukäteen, ja ohjelma pidetään sellaisena, että myös ensikertalainen saa pallon pussiin.",
+        body: "Sopii kaikille. Tämä ei ole luento, vaan innostavaa tekemistä. Ensin perusteet. Sitten säännöt ja lyöntitekniikat. Sitten pelataan. Ryhmäkoko ja kesto sovitaan etukäteen, ja myös ensikertalainen pääsee onnistumaan.",
       },
     ],
     faqLabel: "Jani vastaa",
     faqTitle: "Mitä tilaisuus\noikeasti on",
     faqIntro:
-      "Showlyönnit, lyhyt opastus, sitten kepit käteen. Tilaisuudessa en myy teennäistä tiimipäivää. Laji on vakava, meininki ei ole.",
+      "Temppulyönnit, selkeät ohjeet, sitten kepit käteen. Ilta rakennetaan teidän porukkanne mukaan. Laji on vakava, meininki ei ole.",
     faq: [
       {
         q: "Miksi juuri biljardi?",
@@ -322,17 +322,17 @@ export const fi = {
       {
         q: "Mitä illassa tapahtuu?",
         a: [
-          "Aloitetaan showlla. Lyöntejä, joita ei näe joka hallissa. Se avaa illan ja kertoo, että paikalla on joku, joka osaa.",
-          "Sitten lyhyt opastus: ote, asento, säännöt sen verran, että peli kulkee. Muutamassa minuutissa koko porukka on pöydän ääressä, myös ne, jotka tulivat “vain katsomaan”.",
-          "Loppuilta pelataan. Mä olen siinä, korjaan, näytän ja pidän rytmin. En seiso nurkassa odottamassa, että ohjelma loppuu.",
+          "Aloitetaan temppulyönneillä, joita ei näe ihan joka biljardisalilla. Se avaa illan.",
+          "Sitten selkeät ohjeet: perusteet, säännöt ja lyöntitekniikka sen verran, että peli kulkee. Koko porukka pääsee pöydän ääreen, myös ne, jotka tulivat vain katsomaan.",
+          "Loppuilta pelataan. Olen siinä, korjaan, näytän ja pidän rytmin.",
         ],
       },
       {
         q: "Entä jos kukaan ei ole pelannut?",
         a: [
           "Silloin tämä on parhaimmillaan.",
-          "Olen nähnyt sen tarpeeksi: osaava porukka menee omilleen ja muut jäävät sivustakatsojiksi. Siksi illan rakenne on se, mikä on. Show, opastus, peli. Ei oleteta taitoa. Oletetaan, että porukka haluaa tehdä jotain yhdessä.",
-          "Ensikertalainen saa pallon pussiin. Se on minimivaatimus, ei ylimääräistä.",
+          "Olen nähnyt sen tarpeeksi: osaava porukka menee omilleen ja muut jäävät katsomaan. Siksi ilta rakennetaan näin. Temppulyönnit, ohjeet, peli. Taitoa ei oleteta. Porukka haluaa tehdä jotain yhdessä.",
+          "Ensikertalainenkin pääsee onnistumaan. Se on illan mitta.",
         ],
       },
       {
@@ -340,38 +340,38 @@ export const fi = {
         a: [
           "Pöytä ilman ohjelmaa on kaluste.",
           "Silloin illasta tulee se, että kolme kaveria osaa ja loput kiertävät lasin kanssa. Se ei ole tilaisuus. Se on tauko.",
-          "Ammattilainen salilla ei ole koriste. Se on se, että joku pitää illan kasassa: näyttää, jakaa pöydät, saa ujonkin lyömään, ja osaa sen showlyönnin, jota varten porukka otti puhelimen esiin.",
+          "Ammattilainen biljardisalilla pitää illan kasassa: näyttää, jakaa pöydät, saa ujonkin lyömään, ja osaa sen temppulyönnin, jota varten porukka otti puhelimen esiin.",
         ],
       },
       {
-        q: "Onko tämä show vai opetus?",
+        q: "Temppuja vai opetusta?",
         a: [
-          "Molempia. Siinä järjestyksessä.",
-          "Pelkkä show on katsomista. Pelkkä opetus on tunti. Tilaisuus on se, että nähdään jotain, mitä ei nähdä joka hallissa, ja sitten yritetään itse.",
-          "Kukaan ei lähde kotiin miettimään, että “olisi pitänyt päästä kokeilemaan”. Se kokeilu on ohjelmassa.",
+          "Molempia. Tässä järjestyksessä.",
+          "Pelkät temppulyönnit ovat katsomista. Pelkkä opetus on tunti. Tilaisuudessa nähdään lyöntejä, joita ei näe ihan joka biljardisalilla, ja sitten yritetään itse.",
+          "Kukaan ei lähde kotiin miettimään, että olisi pitänyt päästä kokeilemaan. Kokeilu on ohjelmassa.",
         ],
       },
       {
         q: "Mitä tilaisuus ei ole?",
         a: [
-          "Se ei ole teennäinen tiimipäivä, jossa keksitään yhdessä arvoja fläppitaululle.",
-          "Se ei ole myöskään se, että mä lyön koko illan ja te taputatte. Näytän, selitän, sitten te lyötte.",
+          "Se ei ole pakollinen tiimipäivä, jossa keksitään yhdessä arvoja.",
+          "Se ei ole myöskään se, että minä lyön koko illan ja te taputatte. Näytän, selitän, sitten te lyötte.",
           "Eikä se ole kisa, jossa häviäjä jää noloksi. Laji on vakava, meininki ei ole.",
         ],
       },
       {
         q: "Missä tämä pidetään?",
         a: [
-          "Paikka voi olla teidän tai etsitään sopiva halli. Pöydät tarvitaan. Muusta huolehdin minä.",
-          "Helsingin seudulla säännöllisesti, muualla Suomessa ja ulkomailla sopimuksen mukaan. Kerro lomakkeella paikka, osallistujamäärä ja ajankohta. Sitten tehdään tarjous, ei arvailua.",
+          "Paikka voi olla teidän tai etsitään sopiva biljardisali. Pöydät tarvitaan. Muusta huolehdin minä.",
+          "Pääkaupunkiseudulla säännöllisesti, muualla Suomessa ja ulkomailla sopimuksen mukaan. Kerro lomakkeella paikka, osallistujamäärä ja ajankohta. Sitten tehdään tarjous, ei arvailua.",
         ],
       },
       {
         q: "Entä koulut ja synttärit?",
         a: [
           "Sama logiikka, eri sävy.",
-          "Koululaisille säännöt lyhyesti, keppi käteen, tekemisen kautta eteenpäin. Laji, jossa pärjää ilman että pitää olla isoin.",
-          "Yksityisessä illassa show sovitetaan tilaan: illallinen, synttärit, porukka, joka haluaa nähdä lyöntejä. Sitten jokainen pääsee yrittämään samaa.",
+          "Kouluille ja nuorille tämä sopii kaikille. Ei luentoa, vaan innostavaa tekemistä: ensin perusteet, sitten säännöt ja lyöntitekniikat, sitten pelataan.",
+          "Yksityisessä illassa temppulyönnit sovitetaan tilaan: illallinen, synttärit, polttarit, porukka, joka haluaa nähdä lyöntejä. Sitten jokainen pääsee yrittämään samaa.",
           "Yritykselle se on virkistystä, joka ei tunnu pakolliselta ohjelmanumerolta.",
         ],
       },
@@ -379,7 +379,7 @@ export const fi = {
         q: "Mistä tietää, että ilta toimi?",
         a: [
           "Silloin kun sivustakatsojia ei jää.",
-          "Silloin kun joku, joka “ei ikinä pelaa”, pyytää vielä yhden rackin.",
+          "Silloin kun joku, joka ei ikinä pelaa, pyytää vielä yhden pelin.",
           "Ja silloin kun seuraavana viikkona puhutaan siitä lyönnistä, ei siitä, että “oli ihan kivaa”. Kiva unohtuu. Se lyönti ei unohdu.",
         ],
       },
@@ -387,15 +387,15 @@ export const fi = {
   },
   repairsPage: {
     intro:
-      "Huollan kepit siihen kuntoon, jota vaadin omiltani. Kärki, ferruli ja shaft. Saat arvion työstä ja aikataulusta ennen kuin mitään tehdään. Kerro, mitä kepille on tapahtunut ja miltä lyönti nyt tuntuu.",
+      "Huollan kepit siihen kuntoon, jota vaadin omiltani. Tippi, holkki, grippi ja puhdistukset. Mikä huoltotarpeesi onkaan, kerro se, niin saat arvion työstä ja aikataulusta ennen kuin mitään tehdään.",
     items: [
       {
-        title: "Kärki ja ferruli",
-        body: "Vaihto ja muotoilu silloin, kun lyönti ei enää pidä tai kärki on eläkkeellä. Valitaan kovuus sen mukaan, miten pelaat, ei sen mukaan, mitä hyllyssä sattuu olemaan.",
+        title: "Tippi ja holkki",
+        body: "Vaihto ja muotoilu silloin, kun tippi on tunnoton tai tipin on aika jäädä eläkkeelle. Valitaan kovuus sen mukaan, miten pelaat, ei sen mukaan, mitä hyllyssä sattuu olemaan.",
       },
       {
         title: "Shaft",
-        body: "Puhdistus, suoruuden tarkistus ja pinta takaisin sellaiseksi, että kädessä ei enää takerra. Ei kikkailua eikä turhia töitä: vain se, mikä pitää korjata, ja perustelut, miksi.",
+        body: "Puhdistus ja suoruuden tarkistus onnistuvat puussa ja hiilikuidussa. Puun pinnan saan takaisin sellaiseksi, ettei kädessä takerra. Hiilikuidun pintaan en voi vaikuttaa. Ei kikkailua eikä turhia töitä: vain se, mikä pitää korjata, ja perustelut, miksi.",
       },
     ],
   },
@@ -430,9 +430,9 @@ export const fi = {
   },
   jani: {
     kicker: "Pelaaja",
-    p1: "Tulin pooliin aikuisena. Ensin maalivahdiksi, sitten cheerleadingin Euroopan mestariksi Funky Team Gorillazin kanssa. Sitten tämä pöytä vei mukanaan.",
-    p2: "Syntynyt Helsingissä 19.4.1987. Poolammattilainen vuodesta 2013. Pelilajeina 8-pallo, 9-pallo, 10-pallo ja suora pallo. Vuodet pöydän ääressä näkyvät siinä, miten nopeasti toisen pelaajan virhe löytyy. Minua kutsutaan joskus Siegoksi. Se jää tähän.",
-    p3: "Kilpailen edelleen Euro Tourilla ja WNT:llä, ja olen pelannut US Openissa. Paras sija on 33. Matkaan on kertynyt yli 20 SM-mitalia. Sama peli, jota valmennuksissa käydään läpi, on joka kausi itse koetuksella.",
+    p1: "Aloitin biljardin 16-vuotiaana. Olen ollut maalivahti, voittanut cheerleadingin Euroopan mestaruuden Funky Team Gorillazin kanssa ja skeittikilpailuja.",
+    p2: "Syntynyt Helsingissä 1987. Poolammattilainen vuodesta 2013. Pelilajeina 8-pallo, 9-pallo, 10-pallo ja Straight pool. Monesta lajista ja huippu-urheilusta kertynyt tietämys näkyy siinä, miten nopeasti toisen pelaajan virhe löytyy ja miltä peli näyttää paineessa. Lempinimeni on Siego. Jos kuulet sen joskus, se olen minä.",
+    p3: "Kilpailen Euroopan kiertueella ja WNT:llä, ja tietysti Suomessa. Matkaan on kertynyt yli 20 SM-mitalia. Valmennuksessa sama kokonaisuus on joka kausi itse koetuksella: peli, henkinen puoli ja se, mitä muut lajit ovat opettaneet.",
     pressLabel: "Mediassa",
     press: [
       {
@@ -453,48 +453,50 @@ export const fi = {
     "Nämä ovat tulokset, jotka voin kirjoittaa ilman keksittyjä mitaleita. Valmennus tulee pelaajalta, joka on itse edelleen kisassa.",
   results: [
     { year: "20+", text: "SM-mitalia" },
+    { year: "75+", text: "Podium-sijaa" },
+    { year: "2021", text: "Euroopan mestaruus (joukkue). Biljardi." },
     { year: "2018", text: "8-pallon Suomen mestari" },
     { year: "2025", text: "10-pallon SM-hopea" },
     { year: "2015, 2018", text: "Pari-SM-kultaa" },
     { year: "2015", text: "Ensimmäisen Finnish Pool Tour -osakilpailun voittaja" },
-    { year: "-", text: "US Openissa, paras sija 33." },
+    { year: "2023", text: "Amerikan 14.1-turnauksessa 4. sija." },
   ],
   faqLabel: "Hyvä tietää",
   faqTitle: "Ennen ensimmäistä\nlyöntiä",
   faqIntro:
-    "Paikka, taso ja homma sovitaan sen mukaan, mistä lähdetään. Mitään ei tarvitse osata etukäteen. Tässä ne kysymykset, jotka tulevat useimmin. Jos oma juttusi ei ole listalla, kysy lomakkeella.",
+    "Selvitetään ensin lähtötasosi. Paikka ja sisältö sovitaan sen mukaan, eikä mitään tarvitse osata etukäteen. Jos kysymystäsi ei ole listalla, kysy lomakkeella.",
   faq: [
     {
       q: "Onko tämä poolia vai biljardia?",
-      a: "Poolia. Suomessa pool kuuluu biljardiin. Valmennan 8-, 9- ja 10-palloa sekä suoraa palloa. Snookeria en valmenna.",
+      a: "Eri biljardipelejä on useita. Kaikki pelit toimivat kuitenkin samojen fysiikan lakien alaisuudessa. Oli pelissä sitten pool tai snooker, pystyn antamaan apuja tekniikkaan, tähtäykseen ja muille pelin osa-alueille.",
     },
     {
       q: "Missä valmennus on?",
-      a: "Helsingin seudulla säännöllisesti ja muualla Suomessa sopimuksen mukaan. Pelataan sinulle tutussa hallissa tai etsitään sopiva pöytä. Kotikäynnit ja pidemmät matkat sovitaan tapauskohtaisesti.",
+      a: "Pääkaupunkiseudulla missä vain, muualla Suomessa sopimuksen mukaan. Pelataan sinulle tutussa biljardisalissa tai etsitään sopiva pöytä.",
     },
     {
       q: "Mitä yksityistunti on?",
-      a: "Tunti pöydän ääressä kahden kesken, ei ryhmäluentoa. Katson ensin, miten pelaat, ja sen jälkeen työstetään se kohta, jossa peli vuotaa. Saat mukaasi selkeän treeniohjelman, jota voit tehdä yksin.",
+      a: "Yksi pelaaja, yksi pöytä, koko sessio sinua varten. Selvitetään ensin lähtötasosi ja käydään perusteellisesti läpi, mistä peli koostuu. Saat kattavan kokonaisuuden juuri sinun tarpeisiisi.",
     },
     {
-      q: "Voiko tulla nollasta?",
-      a: "Kyllä, ja moni tuleekin. Alkeet ovat oma juttunsa: ote, asento ja valkoisen hallinta rauhassa järjestyksessä. Kisaajille on oma polku, joten kummankaan aika ei mene toisen tasolla.",
+      q: "Voiko tulla aloittelijana?",
+      a: "Kyllä. Aloittelijana ei ole hätää, eikä mitään tarvitse osata etukäteen. Selvitetään lähtötaso ja rakennetaan sessio siitä.",
     },
     {
       q: "Entä yritystapahtuma?",
-      a: "Onnistuu. Ohjelma rakennetaan ryhmän koon ja illan keston mukaan niin, että myös ensikertalaiset pelaavat. Pöydät tarvitaan: paikka voi olla teidän tai etsitään sopiva halli yhdessä.",
+      a: "Onnistuu. Ohjelma rakennetaan ryhmän koon ja illan keston mukaan niin, että myös ensikertalaiset pelaavat. Paikka voi olla teidän. Jos pöytiä ei ole, etsitään sopiva biljardisali yhdessä.",
     },
     {
       q: "Mitä tilaisuus maksaa?",
-      a: "Hinta muodostuu paikan, keston ja ryhmäkoon mukaan, joten teen aina tarjouksen erikseen. Kerro lomakkeella paikka, osallistujamäärä ja ajankohta, niin saat selkeän hinnan ilman lisäkierroksia.",
+      a: "Hinta muodostuu paikan, keston ja ryhmäkoon mukaan, joten teen aina tarjouksen erikseen. Jos paikkaa ei ole vielä mielessä, voin suositella sopivia biljardisaleja, ja saat kokonaiskustannuksen saman tien.",
     },
     {
       q: "Onko videoanalyysi etänä?",
-      a: "Kyllä. Kuvaat lyöntejäsi puhelimella ja lähetät klipit, minä palautan konkreettiset korjaukset ja harjoitteet tärkeysjärjestyksessä. Tämä toimii hyvin myös Helsingin ulkopuolella asuville.",
+      a: "Kyllä. Kuvaat lyöntejäsi puhelimella ja lähetät klipit. Palautan korjaukset ja harjoitteet tärkeysjärjestyksessä. Toimii hyvin myös pääkaupunkiseudun ulkopuolella.",
     },
     {
       q: "Voiko sponsoroinnista puhua?",
-      a: "Ehdottomasti. Katso ensin yhteistyösivu ja kerro lomakkeella merkki, tavoite ja mitä odotat: paidat, some vai kiertue. Palaan ehdotuksella.",
+      a: "Kyllä. Yritys, yksityishenkilö tai kuka tahansa voi lähteä tukemaan. Näkyvyyttä saa kiertueella, somessa ja pelipaidassa. Yhteistyökuvio sovitaan yhdessä sen mukaan, mitä haetaan. Kerro lomakkeella, niin palaan ehdotuksella.",
     },
   ],
   form: {
@@ -553,7 +555,7 @@ export const fi = {
   alts: {
     hands: "Jani Siekkinen tähtää, liitu kepin varrella",
     break: "Jani Siekkinen tähtää Suomen pelipaidassa, katsomo taustalla",
-    show: "Jani Siekkinen tähtää hallissa, useita pöytiä taustalla",
+    show: "Jani Siekkinen tähtää biljardisalissa, useita pöytiä taustalla",
     cue: "Kärki muotoillaan Mezz Cue Magic -työkalulla",
     jersey: "Jani Siekkinen Suomen pelipaidassa Belgian Openissa",
     tour: "Jani Siekkinen, Mezz-logo ja nimi pelipaidan selässä",

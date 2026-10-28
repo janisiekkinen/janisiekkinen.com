@@ -76,7 +76,7 @@ export function personJsonLd(locale: Locale) {
     name: "Jani Siekkinen",
     alternateName: ["Siego", "Jani Siekkinen pool"],
     description: t.meta.jani.description,
-    birthDate: "1987-04-19",
+    birthDate: "1987",
     birthPlace: { "@type": "Place", name: "Helsinki" },
     nationality: "FI",
     jobTitle: locale === "fi" ? "Biljardivalmentaja ja poolammattilainen" : "Pool coach and professional player",
@@ -99,7 +99,7 @@ export function personJsonLd(locale: Locale) {
             "8-pallo",
             "9-pallo",
             "10-pallo",
-            "suora pallo",
+            "straight pool",
           ]
         : ["billiards", "pool", "pool coaching", "8-ball", "9-ball", "10-ball", "straight pool"],
     worksFor: { "@id": `${site.domain}/#org` },

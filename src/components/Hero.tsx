@@ -31,7 +31,7 @@ export function Hero({ locale, image }: { locale: Locale; image: StaticImageData
             </span>
           </h1>
           <div className="mt-6 max-w-md md:ml-auto md:mt-8">
-            <p className="text-sm text-ink">{t.hero.proof}</p>
+            <p className="whitespace-pre-line text-sm text-ink">{t.hero.proof}</p>
             <p className="mt-2 text-[0.95rem] leading-relaxed text-ink/95 md:mt-3 md:text-lg">{t.hero.lead}</p>
             <a href={pathFor("contact", locale)} className="btn mt-6">
               {t.hero.cta}
