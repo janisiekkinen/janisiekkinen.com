@@ -420,7 +420,7 @@ export const en = {
       },
       {
         title: "Local partners",
-        body: "A hall, kit or an event we run together. Helsinki is the starting point and the rest of Finland is in when it makes sense for both. A smaller local partnership is as welcome as a large one.",
+        body: "A billiard hall, a cue shop or a night we run together. Practice at your tables, a mark in the hall, or an event built as a pair. In the capital region this happens regularly; elsewhere in Finland when the travel and the work make sense for both.",
       },
     ],
   },

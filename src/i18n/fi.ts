@@ -420,7 +420,7 @@ export const fi = {
       },
       {
         title: "Paikallinen yhteistyö",
-        body: "Halli, välineet tai yhteinen tapahtuma. Helsinki on lähtökohta ja muu Suomi mukana silloin, kun se on molemmille järkevää. Pienempi paikallinen yhteistyö on yhtä tervetullut kuin iso.",
+        body: "Biljardisali, välinekauppa tai yhteinen ilta. Treenit sinun pöydilläsi, logo salille tai tapahtuma, joka tehdään yhdessä. Pääkaupunkiseudulla tämä onnistuu säännöllisesti, muualla Suomessa kun matka ja homma kannattavat molemmille.",
       },
     ],
   },
