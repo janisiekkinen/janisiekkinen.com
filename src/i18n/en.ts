@@ -119,7 +119,7 @@ export const en = {
     { k: "2018", v: "Finnish title, 8-ball" },
     { k: "2025", v: "Nationals silver, 10-ball" },
     { k: "20+", v: "Finnish championship medals" },
-    { k: "+75", v: "podium finishes" },
+    { k: "+100", v: "podium finishes" },
     { k: "10+", v: "years as a full-time pro" },
   ],
   workLabel: "What I do",
@@ -450,7 +450,7 @@ export const en = {
     "These are the results I can put in writing without inventing medals. I am still competing.",
   results: [
     { year: "20+", text: "Finnish championship medals" },
-    { year: "75+", text: "Podium finishes" },
+    { year: "100+", text: "Podium finishes" },
     { year: "2021", text: "European champion (team). Billiards." },
     { year: "2018", text: "Finnish champion, 8-ball" },
     { year: "2025", text: "10-ball Finnish Championship silver" },

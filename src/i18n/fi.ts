@@ -119,7 +119,7 @@ export const fi = {
     { k: "2018", v: "SM-kulta, 8-pallo" },
     { k: "2025", v: "SM-hopea, 10-pallo" },
     { k: "20+", v: "SM-mitalia" },
-    { k: "+75", v: "podium-paikkaa" },
+    { k: "+100", v: "podium-paikkaa" },
     { k: "10+", v: "vuotta poolammattilaisena" },
   ],
   workLabel: "Mitä teen",
@@ -450,7 +450,7 @@ export const fi = {
     "Nämä ovat tulokset, jotka voin kirjoittaa ilman keksittyjä mitaleita. Valmennus tulee pelaajalta, joka on itse edelleen kisassa.",
   results: [
     { year: "20+", text: "SM-mitalia" },
-    { year: "75+", text: "Podium-sijaa" },
+    { year: "100+", text: "Podium-sijaa" },
     { year: "2021", text: "Euroopan mestaruus (joukkue). Biljardi." },
     { year: "2018", text: "8-pallon Suomen mestari" },
     { year: "2025", text: "10-pallon SM-hopea" },
